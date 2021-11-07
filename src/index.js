@@ -1,17 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+/** @format */
+
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Header from "./components/Header";
+import Section2 from "./components/Section2";
+import Section3 from "./components/Section3";
+import Section4 from "./components/Section4";
+import Section5 from "./components/Section5";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="container-fluid">
+      <Header />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+    </div>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
