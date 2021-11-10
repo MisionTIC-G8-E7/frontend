@@ -9,12 +9,7 @@ function Card2(props) {
       <div className="card ancho fondoCard2">
         <div className="card-body">
           <h3 className="card-title text-center fs-2">{props.titulo}</h3>
-          <p className="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            pretium maximus semper. Sed vel tincidunt augue. Morbi eget lorem at
-            ligula lacinia feugiat. Curabitur at nisl dignissim, condimentum
-            erat sit ametd.
-          </p>
+          <p className="card-text">{props.children}</p>
           <a href="/" className="btn color text-white">
             SABER MÁS
           </a>
