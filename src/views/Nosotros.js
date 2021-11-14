@@ -1,3 +1,3 @@
 export default function Nosotros() {
-  return;
+  return <p>hola</p>;
 }

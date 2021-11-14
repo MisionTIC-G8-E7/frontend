@@ -49,7 +49,7 @@ export default function Home(props) {
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link text-primary" href="/">
+                      <a className="nav-link text-primary" href="/nosotros">
                         NOSOTROS
                       </a>
                     </li>
