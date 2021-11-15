@@ -3,3 +3,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fondo5 {
+  height: 500px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/09/11/09/meeting-594091_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

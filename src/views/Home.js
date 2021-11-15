@@ -1,108 +1,13 @@
 import Card from "../components/Card";
 import Card2 from "../components/Card2";
 import "../views/home.css";
+import Menu from "../components/Menu";
+import Footer from "../components/Footer";
 
 export default function Home(props) {
   return (
     <>
-      {/* HEADER */}{" "}
-      <div className="row bg-secondary">
-        <div className="col-12 text-white fs-2">
-          <p className="text-center"> ☎ 3141234245</p>
-          <p className="text-center"> ✉ contacto@sopoteit.com</p>
-        </div>
-      </div>
-      <div className="row bg-success">
-        <header className="col-12">
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
-              <div>
-                <a className="navbar-brand fs-1 fw-bold" href="/">
-                  SOPORTEIT
-                </a>
-                <button
-                  className="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNavDropdown"
-                  aria-controls="navbarNavDropdown"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span className="navbar-toggler-icon"></span>
-                </button>
-              </div>
-
-              <div className="aling-items-end">
-                <div
-                  className="collapse navbar-collapse"
-                  id="navbarNavDropdown"
-                >
-                  <ul className="navbar-nav fw-bold">
-                    <li className="nav-item">
-                      <a
-                        className="nav-link text-primary active"
-                        aria-current="page"
-                        href="/"
-                      >
-                        INICIO
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link text-primary" href="/nosotros">
-                        NOSOTROS
-                      </a>
-                    </li>
-
-                    <li className="nav-item dropdown">
-                      <a
-                        className="nav-link text-primary dropdown-toggle"
-                        href="/"
-                        id="navbarDropdownMenuLink"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        PORTAFOLIO
-                      </a>
-                      <ul
-                        className="dropdown-menu"
-                        aria-labelledby="navbarDropdownMenuLink"
-                      >
-                        <li>
-                          <a className="dropdown-item" href="/">
-                            Action
-                          </a>
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="/">
-                            Another action
-                          </a>
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="/">
-                            Something else here
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link text-primary" href="/">
-                        CANALES DE SOPORTE
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link text-primary" href="/">
-                        CONTACTO
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </header>
-      </div>
+      <Menu />
       {/* SECTION 2 */}
       <div className="row fondo"></div>
       {/* SECTION 3 */}
@@ -197,26 +102,8 @@ Software"
           </Card2>
         </div>
       </div>
-      {/* SECTION 5 */}
-      <div className="row justify-content-center align-items-center m-3">
-        <div className="col-12 col-sm-4 fw-bold">
-          <h3 className="fs-2">SOPORTE IT</h3>
-          <p>Dirección: Avenida 1 N° 25-08 </p>
-          <p>Teléfonos: 314 123 4245 </p>
-          <p>Correos: contacto@sopoteit.com </p>
-        </div>
-        <div className="col-12 col-sm-4 fw-bold">
-          <h3 className="fs-2">SÍGANOS</h3>
-          <p>Facebook </p>
-          <p>Twitter </p>
-          <p>Instagram</p>
-        </div>
-        <div className="col-12 col-sm-4 fw-bold">
-          <p className="bg-secondary fs-1 text-center text-white">
-            ¿En qué podemos ayudarte?
-          </p>
-        </div>
-      </div>
+      {/* FOOTER */}
+      <Footer />
     </>
   );
 }
