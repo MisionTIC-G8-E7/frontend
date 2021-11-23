@@ -1,3 +1,5 @@
+import { Link, NavLink } from "react-router-dom";
+
 export default function Menu() {
   return (
     <>
@@ -12,9 +14,9 @@ export default function Menu() {
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
               <div>
-                <a className="navbar-brand fs-1 fw-bold" href="/">
+                <Link className="navbar-brand fs-1 fw-bold" to="/">
                   SOPORTEIT
-                </a>
+                </Link>
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -35,61 +37,94 @@ export default function Menu() {
                 >
                   <ul className="navbar-nav fw-bold">
                     <li className="nav-item">
-                      <a
+                      <NavLink
                         className="nav-link text-primary active"
                         aria-current="page"
-                        href="/"
+                        to="/"
                       >
                         INICIO
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link text-primary" href="/nosotros">
+                      <NavLink className="nav-link text-primary" to="/nosotros">
                         NOSOTROS
-                      </a>
+                      </NavLink>
                     </li>
 
                     <li className="nav-item dropdown">
-                      <a
+                      <NavLink
                         className="nav-link text-primary dropdown-toggle"
-                        href="/"
+                        to="/"
                         id="navbarDropdownMenuLink"
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         PORTAFOLIO
-                      </a>
+                      </NavLink>
                       <ul
                         className="dropdown-menu"
                         aria-labelledby="navbarDropdownMenuLink"
                       >
                         <li>
-                          <a className="dropdown-item" href="/">
-                            Action
-                          </a>
+                          <NavLink
+                            className="nav-link text-primary dropdown"
+                            to="/hardware-software"
+                          >
+                            Soporte Hardware y software
+                          </NavLink>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/">
-                            Another action
-                          </a>
+                          <NavLink
+                            className="nav-link text-primary dropdown"
+                            to="/"
+                          >
+                            Mantenimiento Preventivo
+                          </NavLink>
                         </li>
                         <li>
-                          <a className="dropdown-item" href="/">
-                            Something else here
-                          </a>
+                          <NavLink
+                            className="nav-link text-primary dropdown"
+                            to="/"
+                          >
+                            Mantenimiento de Computadores
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            className="nav-link text-primary dropdown"
+                            to="/"
+                          >
+                            Licenciamiento de Software
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            className="nav-link text-primary dropdown"
+                            to="/"
+                          >
+                            Cableado Estructurado
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            className="nav-link text-primary dropdown"
+                            to="/"
+                          >
+                            Aplicaciones web y moviles
+                          </NavLink>
                         </li>
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link text-primary" href="/">
+                      <NavLink className="nav-link text-primary" to="/">
                         CANALES DE SOPORTE
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link text-primary" href="/">
+                      <NavLink className="nav-link text-primary" to="/">
                         CONTACTO
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>
