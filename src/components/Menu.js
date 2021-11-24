@@ -122,7 +122,7 @@ export default function Menu() {
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link text-primary" to="/">
+                      <NavLink className="nav-link text-primary " to="/">
                         CONTACTO
                       </NavLink>
                     </li>

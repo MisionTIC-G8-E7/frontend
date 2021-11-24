@@ -1,7 +1,7 @@
 // import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./views/Home";
-import MantenimientoPc from "./views/MantenimientoPc";
+import MantenimientoPc from "./views/soporte/MantenimientoPc";
 import Nosotros from "./views/Nosotros";
 import Hardware from "./views/soporte/Hardware";
 import Mantenimiento from "./views/soporte/Mantenimiento";
