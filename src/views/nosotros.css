@@ -17,3 +17,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fondo7 {
+  height: 500px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/06/24/15/45/hands-820272_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondo8 {
+  height: 500px;
+  background-image: url(https://cdn.pixabay.com/photo/2015/06/24/16/36/office-820390_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

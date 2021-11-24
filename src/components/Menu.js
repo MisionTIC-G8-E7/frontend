@@ -77,7 +77,7 @@ export default function Menu() {
                         <li>
                           <NavLink
                             className="nav-link text-primary dropdown"
-                            to="/"
+                            to="/mantenimiento-preventivo"
                           >
                             Mantenimiento Preventivo
                           </NavLink>
@@ -85,7 +85,7 @@ export default function Menu() {
                         <li>
                           <NavLink
                             className="nav-link text-primary dropdown"
-                            to="/"
+                            to="/mantenimiento-computadores"
                           >
                             Mantenimiento de Computadores
                           </NavLink>
