@@ -1,8 +1,10 @@
+/** @format */
+
 const LlamadoAccion = () => {
   return (
     <div className="row justify-content-center align-items-center bg-success p-5 h-auto">
       <div className="col-12 col-sm-6 text-white">
-        <h3 className="fs-1">Programa tu servicio técnico</h3>
+        <h3 className="fs-1">Programa tu servicio de soporte </h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
           architecto cupiditate id, facilis nobis dignissimos modi fugiat quod
@@ -46,12 +48,15 @@ const LlamadoAccion = () => {
               <option value="DEFAULT" disabled>
                 Seleccione...
               </option>
-              <option>Servicio de soporte técnico remoto</option>
-              <option>
-                Servicio de mantenimiento de computadores o portátiles
-              </option>
+              <option>Soporte hardware y software</option>
+              <option>Mantenimiento preventivo</option>
+              <option>Mantenimiento de computadores</option>
+              <option>Cableado estructurado</option>
+              <option>Aplicaciones webs y móviles</option>
               <option>Instalacion y licenciamiento de progrmas</option>
               <option>Venta de computadores y accesorios</option>
+              <option>Servicio de soporte técnico remoto</option>
+              <option>Soporte personalizado</option>
             </select>
           </div>
           <div className="col-12">
