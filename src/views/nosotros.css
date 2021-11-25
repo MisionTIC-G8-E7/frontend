@@ -31,3 +31,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fondo9 {
+  height: 500px;
+  background-image: url(https://cdn.pixabay.com/photo/2020/01/29/23/47/matrix-4804001_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondo10 {
+  height: 500px;
+  background-image: url(https://cdn.pixabay.com/photo/2012/10/29/15/36/ball-63527_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

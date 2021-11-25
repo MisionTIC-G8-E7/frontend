@@ -5,6 +5,8 @@ import MantenimientoPc from "./views/soporte/MantenimientoPc";
 import Nosotros from "./views/Nosotros";
 import Hardware from "./views/soporte/Hardware";
 import Mantenimiento from "./views/soporte/Mantenimiento";
+import LiceSoftware from "./views/soporte/LiceSoftware";
+import CableadoEstructurado from "./views/soporte/CableadoEstructurado";
 
 export default function App() {
   return (
@@ -20,6 +22,14 @@ export default function App() {
         <Route
           path="mantenimiento-computadores"
           element={<MantenimientoPc />}
+        ></Route>
+        <Route
+          path="licenciamiento-sorfware"
+          element={<LiceSoftware />}
+        ></Route>
+        <Route
+          path="cableado-estructurado"
+          element={<CableadoEstructurado />}
         ></Route>
       </Routes>
     </BrowserRouter>

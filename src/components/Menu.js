@@ -93,7 +93,7 @@ export default function Menu() {
                         <li>
                           <NavLink
                             className="nav-link text-primary dropdown"
-                            to="/"
+                            to="/licenciamiento-sorfware"
                           >
                             Licenciamiento de Software
                           </NavLink>
@@ -101,7 +101,7 @@ export default function Menu() {
                         <li>
                           <NavLink
                             className="nav-link text-primary dropdown"
-                            to="/"
+                            to="/cableado-estructurado"
                           >
                             Cableado Estructurado
                           </NavLink>

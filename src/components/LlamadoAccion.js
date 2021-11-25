@@ -14,32 +14,38 @@ const LlamadoAccion = () => {
       </div>
 
       <div className="col-12 col-sm-6 bg-primary p-5 text-white">
-        <form class="row g-3">
-          <div class="col-md-12">
-            <label for="inputEmail4" class="form-label">
+        <form className="row g-3">
+          <div className="col-md-12">
+            <label htmlFor="inputEmail4" className="form-label">
               Nombre
             </label>
-            <input type="text" class="form-control" id="inputEmail4" />
+            <input type="text" className="form-control" id="inputEmail4" />
           </div>
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">
+          <div className="col-md-6">
+            <label htmlFor="inputPassword4" className="form-label">
               Correo
             </label>
-            <input type="email" class="form-control" id="inputPassword4" />
+            <input type="email" className="form-control" id="inputPassword4" />
           </div>
-          <div class="col-6">
-            <label for="inputAddress" class="form-label">
+          <div className="col-6">
+            <label htmlFor="inputAddress" className="form-label">
               Telefono
             </label>
-            <input type="number" class="form-control" id="inputAddress" />
+            <input type="number" className="form-control" id="inputAddress" />
           </div>
 
-          <div class="col-md-12">
-            <label for="inputState" class="form-label">
+          <div className="col-md-12">
+            <label htmlFor="inputState" className="form-label">
               Seleccione un servicio
             </label>
-            <select id="inputState" class="form-select">
-              <option selected>Seleccione...</option>
+            <select
+              id="inputState"
+              className="form-select"
+              defaultValue="DEFAULT"
+            >
+              <option value="DEFAULT" disabled>
+                Seleccione...
+              </option>
               <option>Servicio de soporte técnico remoto</option>
               <option>
                 Servicio de mantenimiento de computadores o portátiles
@@ -48,16 +54,20 @@ const LlamadoAccion = () => {
               <option>Venta de computadores y accesorios</option>
             </select>
           </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" />
-              <label class="form-check-label" for="gridCheck">
+          <div className="col-12">
+            <div className="form-check">
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="gridCheck"
+              />
+              <label className="form-check-label" htmlFor="gridCheck">
                 Acepto política de privacidad
               </label>
             </div>
           </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-success">
+          <div className="col-12">
+            <button type="submit" className="btn btn-success">
               Solicitar Asesoria
             </button>
           </div>
