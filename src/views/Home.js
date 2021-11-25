@@ -3,6 +3,7 @@ import Card2 from "../components/Card2";
 import "../views/home.css";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
+import LlamadoAccion from "../components/LlamadoAccion";
 
 export default function Home(props) {
   return (
@@ -102,6 +103,7 @@ Software"
           </Card2>
         </div>
       </div>
+      <LlamadoAccion />
       {/* FOOTER */}
       <Footer />
     </>

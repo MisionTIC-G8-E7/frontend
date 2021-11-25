@@ -1,4 +1,5 @@
 import Footer from "../../components/Footer";
+import LlamadoAccion from "../../components/LlamadoAccion";
 import Menu from "../../components/Menu";
 
 const Hardware = () => {
@@ -279,7 +280,7 @@ const Hardware = () => {
         </div>
         <div className="col-12 col-sm-1"></div>
       </div>
-
+      <LlamadoAccion />
       <Footer />
     </>
   );

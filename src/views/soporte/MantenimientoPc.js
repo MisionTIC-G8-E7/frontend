@@ -1,4 +1,5 @@
 import Footer from "../../components/Footer";
+import LlamadoAccion from "../../components/LlamadoAccion";
 import Menu from "../../components/Menu";
 
 const MantenimientoPc = () => {
@@ -204,125 +205,8 @@ const MantenimientoPc = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-sm-1"></div>
       </div>
-
-      <div className="row justify-content-center align-items-center fondoCard2 p-5 h-auto">
-        <div className="col-12 col-sm-1"></div>
-
-        <div className="col-12 col-sm-10">
-          <h2>Bondades del mantenimiento correctivo </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis
-            quasi alias nisi hic deleniti aliquid consequatur voluptas atque
-            aspernatur laudantium impedit ipsum, minima nam beatae obcaecati
-            iste quia deserunt? Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Nihil est velit quibusdam
-          </p>
-          <ul>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
-              eligendi quae, tenetur dignissimos soluta vitae.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              recusandae culpa debitis maxime aspernatur voluptatum.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-              eveniet accusamus dolorum.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-              eveniet accusamus dolorum.
-            </li>
-          </ul>
-        </div>
-        <div className="col-12 col-sm-1"></div>
-
-        <div className="col-12 col-sm-1"></div>
-
-        <div className="col-12 col-sm-10">
-          <h2>Ventajas de un buen plan de mantenimiento preventivo </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis
-            quasi alias nisi hic deleniti aliquid consequatur voluptas atque
-            aspernatur laudantium impedit ipsum, minima nam beatae obcaecati
-            iste quia deserunt? Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Nihil est velit quibusdam
-          </p>
-          <ul>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
-              eligendi quae, tenetur dignissimos soluta vitae.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              recusandae culpa debitis maxime aspernatur voluptatum.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-              eveniet accusamus dolorum.
-            </li>
-            <li>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-              eveniet accusamus dolorum.
-            </li>
-          </ul>
-        </div>
-        <div className="col-12 col-sm-1"></div>
-
-        <div className="col-12 col-sm-1"></div>
-
-        <div className="col-12 col-sm-10">
-          <h2>¿Cómo debe hacer el mantenimiento preventivo en una empresa? </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis
-            quasi alias nisi hic deleniti aliquid consequatur voluptas atque
-            aspernatur laudantium impedit ipsum, minima nam beatae obcaecati
-            iste quia deserunt? Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Nihil est velit quibusdam
-          </p>
-          <ul>
-            <li>
-              <b>Define tus metas y objetivos:</b> Lorem, ipsum dolor sit amet
-              consectetur adipisicing elit. Facere eligendi quae, tenetur
-              dignissimos soluta vitae.
-            </li>
-            <li>
-              <b>Determina un presupuesto:</b> Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Est recusandae culpa debitis maxime
-              aspernatur voluptatum.
-            </li>
-            <li>
-              <b>Realiza un inventario del equipo:</b> Lorem ipsum dolor sit
-              amet consectetur, adipisicing elit. Adipisci eveniet accusamus
-              dolorum.
-            </li>
-            <li>
-              <b>Revisa cualquier tipo de mantenimiento anterior:</b> Lorem
-              ipsum dolor sit amet consectetur, adipisicing elit. Adipisci
-              eveniet accusamus dolorum.
-            </li>
-            <li>
-              <b>Infórmate sobre las obligaciones legales:</b> Lorem ipsum dolor
-              sit amet consectetur, adipisicing elit. Adipisci eveniet accusamus
-              dolorum.
-            </li>
-            <li>
-              <b>Planifica el mantenimiento:</b> Lorem ipsum dolor sit amet
-              consectetur, adipisicing elit. Adipisci eveniet accusamus dolorum.
-            </li>
-            <li>
-              <b>Ejecuta tu plan de mantenimiento:</b> Lorem ipsum dolor sit
-              amet consectetur, adipisicing elit. Adipisci eveniet accusamus
-              dolorum.
-            </li>
-          </ul>
-        </div>
-        <div className="col-12 col-sm-1"></div>
-      </div>
-
+      <LlamadoAccion />
       <Footer />
     </>
   );
