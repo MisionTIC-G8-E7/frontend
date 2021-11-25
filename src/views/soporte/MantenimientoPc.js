@@ -90,118 +90,117 @@ const MantenimientoPc = () => {
       </div>
 
       <div className="row justify-content-center align-items-center p-5 h-auto">
-        <div className="col-12 col-sm-1"></div>
-        <div className="col-12 col-sm-10">
-          <h2>Beneficios del mantenimiento preventivo de computadoras</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis
-            quasi alias nisi hic deleniti aliquid consequatur voluptas atque
-            aspernatur laudantium impedit ipsum, minima nam beatae obcaecati
-            iste quia deserunt? Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit.
-          </p>
+        <h2 className="text-center">
+          Beneficios del mantenimiento preventivo de computadoras
+        </h2>
+        <p className="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis
+          quasi alias nisi hic deleniti aliquid consequatur voluptas atque
+          aspernatur laudantium impedit ipsum, minima nam beatae obcaecati iste
+          quia deserunt? Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit.
+        </p>
 
-          <div className="row">
-            <div className="col-12 col-md-6 mb-5">
-              <div className="card" style={{ width: "20rem" }}>
-                <img
-                  src="https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_960_720.jpg"
-                  className="card-img-top"
-                  alt="..."
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-center">
-                    Gestionar el sistema de TI de tu negocio
-                  </h5>
-                  <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                    facere, ratione delectus illum nemo dolore magnam, culpa
-                    impedit ut dolorem reprehenderit accusamus ipsa? Odio,
-                    assumenda sint quo veniam quod numquam.
-                  </p>
-                </div>
-                <ul className="list-group list-group-flush">
-                  <li className="list-group-item">An item</li>
-                  <li className="list-group-item">A second item</li>
-                  <li className="list-group-item">A third item</li>
-                </ul>
+        <div className="row">
+          <div className="col-12 col-md-6 mb-5">
+            <div className="card">
+              <img
+                src="https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_960_720.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">
+                  Gestionar el sistema de TI de tu negocio
+                </h5>
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  facere, ratione delectus illum nemo dolore magnam, culpa
+                  impedit ut dolorem reprehenderit accusamus ipsa? Odio,
+                  assumenda sint quo veniam quod numquam.
+                </p>
               </div>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">An item</li>
+                <li className="list-group-item">A second item</li>
+                <li className="list-group-item">A third item</li>
+              </ul>
             </div>
-            <div className="col-12 col-md-6 mb-5">
-              <div className="card" style={{ width: "20rem" }}>
-                <img
-                  src="https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_960_720.jpg"
-                  className="card-img-top"
-                  alt="..."
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-center">
-                    Incrementar la productividad
-                  </h5>
-                  <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Fugiat sit adipisci eius quae atque vel possimus
-                    perspiciatis accusamus a at culpa, omnis, voluptates
-                    consequuntur debitis quidem dicta corrupti. Rerum, voluptas.
-                  </p>
-                </div>
-                <ul className="list-group list-group-flush">
-                  <li className="list-group-item">An item</li>
-                  <li className="list-group-item">A second item</li>
-                  <li className="list-group-item">A third item</li>
-                </ul>
+          </div>
+          <div className="col-12 col-md-6 mb-5">
+            <div className="card">
+              <img
+                src="https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_960_720.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">
+                  Incrementar la productividad
+                </h5>
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
+                  accusamus a at culpa, omnis, voluptates consequuntur debitis
+                  quidem dicta corrupti. Rerum, voluptas.
+                </p>
               </div>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">An item</li>
+                <li className="list-group-item">A second item</li>
+                <li className="list-group-item">A third item</li>
+              </ul>
             </div>
-            <div className="col-12 col-md-6">
-              <div className="card" style={{ width: "20rem" }}>
-                <img
-                  src="https://cdn.pixabay.com/photo/2018/06/19/10/01/internet-3484137_960_720.jpg"
-                  className="card-img-top"
-                  alt="..."
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-center">
-                    Garantizar la seguridad
-                  </h5>
-                  <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione iure officia illum obcaecati labore consectetur in
-                    soluta suscipit consequuntur vitae, voluptates aliquid
-                    exercitationem. Libero nam, laboriosam reprehenderit
-                    doloremque nostrum mollitia.
-                  </p>
-                </div>
-                <ul className="list-group list-group-flush">
-                  <li className="list-group-item">An item</li>
-                  <li className="list-group-item">A second item</li>
-                  <li className="list-group-item">A third item</li>
-                </ul>
+          </div>
+          <div className="col-12 col-md-6">
+            <div className="card">
+              <img
+                src="https://cdn.pixabay.com/photo/2018/06/19/10/01/internet-3484137_960_720.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">
+                  Garantizar la seguridad
+                </h5>
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ratione iure officia illum obcaecati labore consectetur in
+                  soluta suscipit consequuntur vitae, voluptates aliquid
+                  exercitationem. Libero nam, laboriosam reprehenderit
+                  doloremque nostrum mollitia.
+                </p>
               </div>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">An item</li>
+                <li className="list-group-item">A second item</li>
+                <li className="list-group-item">A third item</li>
+              </ul>
             </div>
-            <div className="col-12 col-md-6">
-              <div className="card" style={{ width: "20rem" }}>
-                <img
-                  src="https://cdn.pixabay.com/photo/2018/03/10/12/34/economy-3213967_960_720.jpg"
-                  className="card-img-top"
-                  alt="..."
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-center">
-                    Reducción de los costos
-                  </h5>
-                  <p className="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quam optio quidem amet non vero facere eum dolor, sapiente,
-                    qui delectus voluptatem voluptas fugiat, temporibus
-                    cupiditate dolores minus excepturi aliquam ipsa!
-                  </p>
-                </div>
-                <ul className="list-group list-group-flush">
-                  <li className="list-group-item">An item</li>
-                  <li className="list-group-item">A second item</li>
-                  <li className="list-group-item">A third item</li>
-                </ul>
+          </div>
+          <div className="col-12 col-md-6">
+            <div className="card">
+              <img
+                src="https://cdn.pixabay.com/photo/2018/03/10/12/34/economy-3213967_960_720.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">
+                  Reducción de los costos
+                </h5>
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  optio quidem amet non vero facere eum dolor, sapiente, qui
+                  delectus voluptatem voluptas fugiat, temporibus cupiditate
+                  dolores minus excepturi aliquam ipsa!
+                </p>
               </div>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">An item</li>
+                <li className="list-group-item">A second item</li>
+                <li className="list-group-item">A third item</li>
+              </ul>
             </div>
           </div>
         </div>

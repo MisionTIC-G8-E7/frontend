@@ -109,7 +109,7 @@ export default function Menu() {
                         <li>
                           <NavLink
                             className="nav-link text-primary dropdown"
-                            to="/"
+                            to="/aplicaciones-moviles-webs"
                           >
                             Aplicaciones web y moviles
                           </NavLink>

@@ -45,3 +45,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.alinear {
+  background-color: #eee;
+}
+
+.fondo11 {
+  height: 500px;
+  background-image: url(https://abamobile.com/web/wp-content/uploads/2020/02/Desarrollo-de-apps-nativas-1030x412.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

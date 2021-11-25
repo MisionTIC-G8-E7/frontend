@@ -126,7 +126,7 @@ const LiceSoftware = () => {
         <div className="col-12 col-sm-1"></div>
       </div>
       <div className="row justify-content-center align-items-center p-5 h-auto">
-        <div className="col">
+        <div className="col-12 col-sm-6 col-md-3">
           <img
             className="img-thumbnail"
             src="https://www.pcstoresoluciones.com/images/Image_PCS/windows-ms.png"
@@ -140,7 +140,7 @@ const LiceSoftware = () => {
             recusandae, vitae, temporibus eius accusantium.
           </p>
         </div>
-        <div className="col">
+        <div className="col-12 col-sm-6 col-md-3">
           <img
             className="img-thumbnail"
             src="https://www.pcstoresoluciones.com/images/Image_PCS/office.png"
@@ -154,7 +154,7 @@ const LiceSoftware = () => {
             libero.
           </p>
         </div>
-        <div className="col">
+        <div className="col-12 col-sm-6 col-md-3">
           <img
             className="img-thumbnail"
             src="https://www.pcstoresoluciones.com/images/Image_PCS/sql-server.png"
@@ -168,7 +168,7 @@ const LiceSoftware = () => {
             quaerat asperiores.
           </p>
         </div>
-        <div className="col">
+        <div className="col-12 col-sm-6 col-md-3">
           <img
             className="img-thumbnail"
             src="https://www.pcstoresoluciones.com/images/Image_PCS/server.png"

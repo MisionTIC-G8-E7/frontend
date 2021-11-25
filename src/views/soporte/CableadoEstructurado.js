@@ -52,6 +52,11 @@ const CableadoEstructurado = () => {
             a neque nisi officia autem repellat veritatis! Optio, possimus
             quisquam natus sit laboriosam velit eaque maxime sint dolorem.
           </p>
+          <img
+            className="img-fluid mx-auto d-block mb-3"
+            src="https://i.ibb.co/myLmkXf/cableado-estructurado-930x616.jpg"
+            alt=""
+          />
           <h2>Red Inalámbrica (WIFI)</h2>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
           fugit architecto autem quidem, accusamus eum sint culpa ea saepe
@@ -106,62 +111,199 @@ const CableadoEstructurado = () => {
         </div>
         <div className="col-12 col-sm-1"></div>
       </div>
-      <div className="row justify-content-center align-items-center p-5 h-auto">
-        <div className="col">
-          <img
-            className="img-thumbnail"
-            src="https://www.pcstoresoluciones.com/images/Image_PCS/windows-ms.png"
-            alt=""
-          />
-          <h3 className="text-center">Microsoft Windows</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit velit fugit beatae soluta unde doloribus dignissimos
-            cum dicta nihil a voluptatem adipisci magnam quaerat dolores
-            recusandae, vitae, temporibus eius accusantium.
-          </p>
-        </div>
-        <div className="col">
-          <img
-            className="img-thumbnail"
-            src="https://www.pcstoresoluciones.com/images/Image_PCS/office.png"
-            alt=""
-          />
-          <h3 className="text-center">Microsoft Office</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque atque
-            non quis adipisci porro quam sequi excepturi quasi iure provident
-            sunt doloremque, fuga, delectus totam magni, magnam iusto nemo
-            libero.
-          </p>
-        </div>
-        <div className="col">
-          <img
-            className="img-thumbnail"
-            src="https://www.pcstoresoluciones.com/images/Image_PCS/sql-server.png"
-            alt=""
-          />
-          <h3 className="text-center">Microsoft SQL Server</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. In veniam
-            quasi odit, earum asperiores, doloribus illum eligendi, non a quas
-            illo. Reiciendis repudiandae tempora accusantium nulla ex minima
-            quaerat asperiores.
-          </p>
-        </div>
-        <div className="col">
-          <img
-            className="img-thumbnail"
-            src="https://www.pcstoresoluciones.com/images/Image_PCS/server.png"
-            alt=""
-          />
-          <h3 className="text-center">Microsoft Windos Server</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse odit
-            dolor quam nihil cumque, eaque consectetur veniam reprehenderit?
-            Minus doloribus, ea ab obcaecati harum libero illo ad atque quos
-            officiis!
-          </p>
+
+      <div className="row alinear p-5 justify-content-center align-items-center">
+        <h2 className="text-center">
+          Sistemas de Cableado Estructurado (SCE), Soluciones de Implantación,
+          Instalación, Auditorías, Mantenimiento, Certificación, Fibra Óptica,
+          Cableado Red y Redes Inalámbricas
+        </h2>
+        <div className="row">
+          <div className="col-12 col-sm-6 col-md-4 mb-3">
+            <div className="card">
+              <img
+                src="https://i.ibb.co/7CVfhKC/cableado-estructurado-6-150x150.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">
+                  Instalación Cableado Estructurado
+                </h5>
+                <hr />
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  facere, ratione delectus illum nemo dolore magnam, culpa
+                  impedit ut dolorem reprehenderit accusamus ipsa? Odio,
+                  assumenda sint quo veniam quod numquam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-sm-6 col-md-4 mb-3">
+            <div className="card">
+              <img
+                src="https://i.ibb.co/hHm3XJ6/cableado-estructurado-5-150x150.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">Componentes</h5>
+                <hr />
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
+                  accusamus a at culpa, omnis, voluptates consequuntur debitis
+                  quidem dicta corrupti. Rerum, voluptas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-sm-6 col-md-4 mb-3">
+            <div className="card">
+              <img
+                src="https://i.ibb.co/HDgPtvR/cableado-estructurado-4-150x150.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">Normativa</h5>
+                <hr />
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
+                  accusamus a at culpa, omnis, voluptates consequuntur debitis
+                  quidem dicta corrupti. Rerum, voluptas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-12 col-sm-6 col-md-4 mb-3">
+            <div className="card">
+              <img
+                src="https://i.ibb.co/92jZr5n/cable-4-pares-cat-7-150x150.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">Cable Categoría 7</h5>
+                <hr />
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  facere, ratione delectus illum nemo dolore magnam, culpa
+                  impedit ut dolorem reprehenderit accusamus ipsa? Odio,
+                  assumenda sint quo veniam quod numquam.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-12 col-sm-6 col-md-4 mb-3">
+            <div className="card">
+              <img
+                src="https://i.ibb.co/2kr3rLC/fiber-300x163.png"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">Fibra Óptica</h5>
+                <hr />
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
+                  accusamus a at culpa, omnis, voluptates consequuntur debitis
+                  quidem dicta corrupti. Rerum, voluptas. Lorem, ipsum dolor sit
+                  amet consectetur adipisicing elit. Quasi nemo corporis, porro
+                  officia ipsam earum. Ipsa dolores sint error molestias quae!
+                  Non, fuga. Autem incidunt labore recusandae, harum fugiat ea.
+                  Autem incidunt labore recusandae, harum fugiat ea. Autem
+                  incidunt labore recusandae, harum fugiat ea. Autem incidunt
+                  labore recusand
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-12 col-sm-6 col-md-4 mb-3">
+            <div className="card">
+              <img
+                src="https://i.ibb.co/bRCx2KW/mantenimiento-informatico-5-150x150.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">Mantenimiento</h5>
+                <hr />
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
+                  accusamus a at culpa, omnis, voluptates consequuntur debitis
+                  quidem dicta corrupti. Rerum, voluptas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-12 col-sm-6 col-md-4 mb-3">
+            <div className="card">
+              <img
+                src="https://i.ibb.co/Lrq3fYn/cableado-estructurado-10-150x150.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">Certificación</h5>
+                <hr />
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  facere, ratione delectus illum nemo dolore magnam, culpa
+                  impedit ut dolorem reprehenderit accusamus ipsa? Odio,
+                  assumenda sint quo veniam quod numquam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-sm-6 col-md-4 mb-3">
+            <div className="card">
+              <img
+                src="https://i.ibb.co/qNHXjGd/punto-acceso-inalambrico-150x150.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">Redes Inalámbricas</h5>
+                <hr />
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
+                  accusamus a at culpa, omnis, voluptates consequuntur debitis
+                  quidem dicta corrupti. Rerum, voluptas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-sm-6 col-md-4 mb-3">
+            <div className="card">
+              <img
+                src="https://i.ibb.co/8KFC475/home-rj45-150x150.jpg"
+                className="card-img-top"
+                alt="..."
+              />
+              <div className="card-body">
+                <h5 className="card-title text-center">
+                  Cableado Par de Cobre
+                </h5>
+                <hr />
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
+                  accusamus a at culpa, omnis, voluptates consequuntur debitis
+                  quidem dicta corrupti. Rerum, voluptas.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

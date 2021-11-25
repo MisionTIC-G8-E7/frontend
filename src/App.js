@@ -7,6 +7,7 @@ import Hardware from "./views/soporte/Hardware";
 import Mantenimiento from "./views/soporte/Mantenimiento";
 import LiceSoftware from "./views/soporte/LiceSoftware";
 import CableadoEstructurado from "./views/soporte/CableadoEstructurado";
+import MovilesyWebs from "./views/soporte/MovilesyWebs";
 
 export default function App() {
   return (
@@ -30,6 +31,10 @@ export default function App() {
         <Route
           path="cableado-estructurado"
           element={<CableadoEstructurado />}
+        ></Route>
+        <Route
+          path="aplicaciones-moviles-webs"
+          element={<MovilesyWebs />}
         ></Route>
       </Routes>
     </BrowserRouter>
