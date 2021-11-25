@@ -17,6 +17,7 @@ export default function Home(props) {
           <Card
             titulo="Soporte Hardware"
             imagen="https://i.ibb.co/1RWRGF5/cog-wheels-g206528ca7-640.jpg"
+            enlace="/hardware-software"
           >
             Nos enfocamos en asegurar que los componentes funcionen en forma
             correcta y que los controladores del hardware se actualicen en forma
@@ -28,6 +29,7 @@ export default function Home(props) {
           <Card
             titulo="Soporte Software"
             imagen="https://i.ibb.co/C6mP87d/software-g03676f5f5-640.jpg"
+            enlace="/hardware-software"
           >
             Realizamos actualización, mantenimiento correctivo y mantenimiento
             preventivo del software instalado en sus equipos para que los
@@ -39,6 +41,7 @@ export default function Home(props) {
           <Card
             titulo="Mantenimiento Preventivo"
             imagen="https://destinonegocio.com/wp-content/uploads/2018/07/mantenimiento1.jpg"
+            enlace="/mantenimiento-computadores"
           >
             Realizamos mantenimiento preventivo y correctivo a sus computadores
             ya sean de escritorio o portátiles de cualquier marca. Mantener sus
@@ -50,6 +53,7 @@ export default function Home(props) {
           <Card
             titulo="Tienda"
             imagen="https://hacemoscontactos.files.wordpress.com/2018/12/online-shop-2.png"
+            enlace="/nosotros"
           >
             Tenemos todos los accesorios para su computador: teclados,
             monitores, mouses, discos duros, memorias USB y SD, toda clase de
