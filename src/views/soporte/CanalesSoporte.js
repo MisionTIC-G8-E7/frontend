@@ -1,4 +1,5 @@
 import Footer from "../../components/Footer";
+import LlamadoAccion from "../../components/LlamadoAccion";
 import Menu from "../../components/Menu";
 
 const CanalesSoporte = () => {
@@ -166,6 +167,11 @@ const CanalesSoporte = () => {
         </div>
         <div className="col-md-12 col-lg-4">
           <h3 className="text-center">CORREO ELECTRÓNICO</h3>
+          <img
+            className="rounded mx-auto d-block"
+            src="https://i.postimg.cc/9F5KWNRv/correo.png"
+            alt=""
+          />
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
             saepe, doloremque hic laborum facilis magnam possimus voluptatibus
@@ -175,6 +181,11 @@ const CanalesSoporte = () => {
         </div>
         <div className="col-md-12 col-lg-4">
           <h3 className="text-center">WHATSAPP</h3>
+          <img
+            className="rounded mx-auto d-block"
+            src="https://i.postimg.cc/gksDfMvy/whatsapp.png"
+            alt=""
+          />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
             quia perferendis pariatur ipsa, totam reprehenderit possimus, vitae
@@ -185,6 +196,11 @@ const CanalesSoporte = () => {
 
         <div className="col-md-12 col-lg-4">
           <h3 className="text-center">TELEFÓNICO</h3>
+          <img
+            className="rounded mx-auto d-block"
+            src="https://i.postimg.cc/C1wdT4CD/phone.png"
+            alt=""
+          />
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
             iusto dicta exercitationem quibusdam facere eveniet corrupti itaque
@@ -194,6 +210,11 @@ const CanalesSoporte = () => {
         </div>
         <div className="col-md-12 col-lg-4">
           <h3 className="text-center">SKYPE</h3>
+          <img
+            className="rounded mx-auto d-block"
+            src="https://i.postimg.cc/GtcDKCgW/skype.png"
+            alt=""
+          />
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
             saepe, doloremque hic laborum facilis magnam possimus voluptatibus
@@ -203,6 +224,11 @@ const CanalesSoporte = () => {
         </div>
         <div className="col-md-12 col-lg-4">
           <h3 className="text-center">ESCRITORIO REMOTO</h3>
+          <img
+            className="rounded mx-auto d-block"
+            src="https://i.postimg.cc/NFpHPzW5/terminal.png"
+            alt=""
+          />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
             quia perferendis pariatur ipsa, totam reprehenderit possimus, vitae
@@ -211,20 +237,7 @@ const CanalesSoporte = () => {
           </p>
         </div>
       </div>
-
-      <div className="row p-5 justify-content-center align-items-center">
-        <h2 className="text-center">
-          Tecnología para el desarrollo de una aplicación
-        </h2>
-        <div className="col-12">
-          <img
-            className="img-fluid rounded mx-auto d-block"
-            src="https://abamobile.com/web/wp-content/uploads/2020/11/tecnologia-desarrollo-aplicaciones-moviles.png"
-            alt=""
-          />
-        </div>
-      </div>
-      {/* <LlamadoAccion /> */}
+      <LlamadoAccion />
       <Footer />
     </>
   );

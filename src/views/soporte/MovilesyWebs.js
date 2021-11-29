@@ -74,7 +74,7 @@ const MovilesyWebs = () => {
               <img
                 className="img-fluid rounded mx-auto d-block"
                 style={{ height: "90px" }}
-                src="https://i.ibb.co/jHjLDG0/images.jpg"
+                src="https://i.postimg.cc/Qxq3vr46/images.jpg"
                 alt=""
               />
             </div>
@@ -130,7 +130,7 @@ const MovilesyWebs = () => {
             <h3 className="text-center">Planificación</h3>
             <img
               className="img-thumbnail rounded mx-auto d-block"
-              src="https://i.ibb.co/TKYZjnw/outline-article-black-24dp.png"
+              src="https://i.postimg.cc/hvzBHJYT/panificacion.png"
               alt=""
             />
             <p>
@@ -144,7 +144,7 @@ const MovilesyWebs = () => {
             <h3 className="text-center">Diseño</h3>
             <img
               className="img-thumbnail rounded mx-auto d-block"
-              src="https://i.ibb.co/HxHZF3H/outline-extension-black-24dp.png"
+              src="https://i.postimg.cc/15FSBqwZ/dise-o.png"
               alt=""
             />
             <p>
@@ -158,7 +158,7 @@ const MovilesyWebs = () => {
             <h3 className="text-center">Desarrollo</h3>
             <img
               className="img-thumbnail rounded mx-auto d-block"
-              src="https://i.ibb.co/h9ZBNtX/outline-code-black-24dp.png"
+              src="https://i.postimg.cc/x1R1GmV1/codigo.png"
               alt=""
             />
             <p>
@@ -172,7 +172,7 @@ const MovilesyWebs = () => {
             <h3 className="text-center">Lanzamiento</h3>
             <img
               className="img-thumbnail rounded mx-auto d-block"
-              src="https://i.ibb.co/jGxRR2Y/outline-upload-black-24dp.png"
+              src="https://i.postimg.cc/50Z49qLn/lanzamiento.png"
               alt=""
             />
             <p>
