@@ -8,7 +8,10 @@ import Mantenimiento from "./views/soporte/Mantenimiento";
 import LiceSoftware from "./views/soporte/LiceSoftware";
 import CableadoEstructurado from "./views/soporte/CableadoEstructurado";
 import MovilesyWebs from "./views/soporte/MovilesyWebs";
-import Login from "./views/access/Login";
+// import Login from "./views/access/Login";
+// import { AuthContext } from "./auth/authContext"
+
+import Login from "./components/LoginScreen";
 import Register from "./views/access/Register";
 import CanalesSoporte from "./views/soporte/CanalesSoporte";
 
