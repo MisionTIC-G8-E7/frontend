@@ -16,14 +16,7 @@ const LiceSoftware = () => {
             de Windows original.
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
-            deserunt obcaecati voluptatibus recusandae itaque ipsa ab.
-            Laudantium, est. Impedit pariatur voluptas laudantium dolorum unde
-            fuga ut, nam nisi eaque vel?, Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Laudantium deserunt sunt ut odio
-            vitae! Quis voluptatem cumque saepe harum veritatis perspiciatis
-            inventore eaque similique optio. Excepturi ea nostrum assumenda
-            iure.
+            Entender si usted cuenta con la licencia apropiada para su software y copias originales de Windows instaladas puede significar la diferencia entre añadir un riesgo inesperado a su negocio o crear un valor original a través del rendimiento y la protección que usted espera.
           </p>
         </div>
         <div className="col-12 col-md-1"></div>
@@ -42,61 +35,29 @@ const LiceSoftware = () => {
             Soluciones de licenciamiento de Software
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            reprehenderit adipisci vel aut voluptatem, quod accusantium!
-            Laboriosam voluptate ipsum facere. Veniam tenetur maxime sequi
-            perspiciatis asperiores aspernatur repellat voluptatibus nemo? Ipsam
-            sed animi ab tenetur. Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Deleniti aperiam tenetur, aspernatur ipsum quos
-            qui blanditiis in repudiandae doloribus unde ducimus, pariatur quas
-            minima ut error placeat totam, debitis saepe. Lorem ipsum dolor sit
-            amet consectetur, adipisicing elit. Voluptatibus fugiat ipsam ipsum
-            a neque nisi officia autem repellat veritatis! Optio, possimus
-            quisquam natus sit laboriosam velit eaque maxime sint dolorem.
+            TEC-SERVICES puede asesorarlo en el software que su empresa pueda requerir, garantizando la autenticidad, y especificidad necesaria, asegurando su inversión. Nuestro servicio de inventario de software y hardware, nos permite conocer lo que tiene instalado en cada máquina, con sus correspondientes números de licencia, un ejemplo es el modelo OEM (Original Equipment Manufacturer) que se venden instalados en las computadoras nuevas. Por ser económicas, muchas empresas reutilizan esas licencias en otros equipos, entrando así en una conducta ilegal, dado que las licencias OEM son válidas única e exclusivamente si vienen pre – instaladas en máquinas nuevas.
+            Nuestro servicio comprende también el asesoramiento para determinar la mejor manera de planear su inversión para obtener el mejor valor y rendimiento posible.
+            Un error en su modelo de licenciamiento puede costar muy caro, inclusive su empresa puede sufrir severas multas y sanciones penales.
           </p>
           <h2>Nuestra Asesoría comprende:</h2>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates
-          fugit architecto autem quidem, accusamus eum sint culpa ea saepe
-          consectetur tempore ipsum beatae dicta natus qui, quod officia cum
-          sit.
+
           <br />
           <br />
           <ul>
             <li>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-              aliquid cum necessitatibus modi pariatur consectetur possimus eius
-              vero impedit mollitia natus quaerat officia sint, ullam eligendi
-              dolore eum similique iusto!
+              Establecimiento de grupos de productos que permitan economizar la inversión de licencias.
             </li>
             <li>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-              aliquid cum necessitatibus modi pariatur consectetur possimus eius
-              vero impedit mollitia natus quaerat officia sint, ullam eligendi
-              dolore eum similique iusto!
+              Estandarización de la plataforma de software de la empresa, al menor costo.
             </li>
             <li>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-              aliquid cum necessitatibus modi pariatur consectetur possimus eius
-              vero impedit mollitia natus quaerat officia sint, ullam eligendi
-              dolore eum similique iusto!
-            </li>
-            <li>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-              aliquid cum necessitatibus modi pariatur consectetur possimus eius
-              vero impedit mollitia natus quaerat officia sint, ullam eligendi
-              dolore eum similique iusto!
+              Planeamiento de crecimiento asociado a nuevas adquisiciones de equipos.
             </li>
           </ul>
           <h2>Soluciones Open Source</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iste
-            laudantium id repellat vel, laborum, voluptatum reprehenderit
-            aliquam, similique earum aspernatur necessitatibus consequuntur fuga
-            recusandae mollitia! Sit voluptatum ea laborum? Quis aspernatur, a
-            unde quod reprehenderit quidem aliquam nihil reiciendis blanditiis
-            odio nisi numquam ea minus nesciunt cum dicta commodi odit eius
-            eaque fugit voluptatum, exercitationem praesentium iste illum?
-            Sequi!
+            Otra política de trabajo es adquirir software de código abierto también llamado "Open Source".
+            Nuestros servicios "Open Source" están focalizados en ofrecer a su empresa servicios de capacitación, soporte e instalación de tecnologías de código abierto, tales como
           </p>
           <ul>
             <li>Linux</li>
@@ -114,13 +75,7 @@ const LiceSoftware = () => {
             <li>Tomcat</li>
           </ul>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
-            ea, molestiae veniam accusantium nobis temporibus sapiente vero
-            corporis labore impedit earum esse rem. Eaque harum quisquam
-            deleniti facere cumque sunt! Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Quae, cumque explicabo corrupti ullam facere
-            similique ipsam saepe assumenda nam nulla omnis officia quisquam
-            impedit eligendi voluptates, consequuntur vitae eaque reprehenderit?
+          Todos estos años de trabajo diario con tecnologías Open Source, analizamos centenares de soluciones y seleccionamos las que mejor se adaptan a las empresas. Estas soluciones ofrecen la misma funcionalidad que las soluciones comerciales licenciadas, pero presentan un costo que obedece a labores de capacitación. Como resultado, ofrecemos soluciones a un precio competitivo como así también nuestros conocimientos y experiencias, para que su empresa aproveche al máximo las ventajas del código abierto.
           </p>
         </div>
         <div className="col-12 col-sm-1"></div>
@@ -134,10 +89,7 @@ const LiceSoftware = () => {
           />
           <h3 className="text-center">Microsoft Windows</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit velit fugit beatae soluta unde doloribus dignissimos
-            cum dicta nihil a voluptatem adipisci magnam quaerat dolores
-            recusandae, vitae, temporibus eius accusantium.
+          Microsoft Windows ayuda a que los usuarios sean productivos en cualquier lugar, mejora la seguridad y el control, y agiliza la administración del PC.
           </p>
         </div>
         <div className="col-12 col-sm-6 col-md-3">
@@ -148,10 +100,7 @@ const LiceSoftware = () => {
           />
           <h3 className="text-center">Microsoft Office</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque atque
-            non quis adipisci porro quam sequi excepturi quasi iure provident
-            sunt doloremque, fuga, delectus totam magni, magnam iusto nemo
-            libero.
+          Microsoft Office le permite crear documentos, hojas de cálculo, y presentaciones de manera rápida y sencilla, así como organizar su información en un solo lugar, permitiendo que sea más fácil hacer las cosas.
           </p>
         </div>
         <div className="col-12 col-sm-6 col-md-3">
@@ -162,10 +111,7 @@ const LiceSoftware = () => {
           />
           <h3 className="text-center">Microsoft SQL Server</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. In veniam
-            quasi odit, earum asperiores, doloribus illum eligendi, non a quas
-            illo. Reiciendis repudiandae tempora accusantium nulla ex minima
-            quaerat asperiores.
+          Microsoft SQL Server es un sistema de administración de bases de datos relacionales fiable, productivo, e inteligente que proporciona una plataforma de datos para que las organizaciones puedan administrar cualquier dato, donde quiera que estén.
           </p>
         </div>
         <div className="col-12 col-sm-6 col-md-3">
@@ -176,10 +122,7 @@ const LiceSoftware = () => {
           />
           <h3 className="text-center">Microsoft Windos Server</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse odit
-            dolor quam nihil cumque, eaque consectetur veniam reprehenderit?
-            Minus doloribus, ea ab obcaecati harum libero illo ad atque quos
-            officiis!
+          Windows Server permite a los profesionales de TI incrementar la fiabilidad y la flexibilidad de sus infraestructuras de servidor.
           </p>
         </div>
       </div>

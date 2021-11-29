@@ -15,14 +15,7 @@ const MantenimientoPc = () => {
         >
           <h1 className="text-center">Mantenimiento de Computadores</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
-            deserunt obcaecati voluptatibus recusandae itaque ipsa ab.
-            Laudantium, est. Impedit pariatur voluptas laudantium dolorum unde
-            fuga ut, nam nisi eaque vel?, Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Laudantium deserunt sunt ut odio
-            vitae! Quis voluptatem cumque saepe harum veritatis perspiciatis
-            inventore eaque similique optio. Excepturi ea nostrum assumenda
-            iure.
+            Ciertamente, cuando programas de forma periódica el mantenimiento preventivo de computadoras con una empresa de mantenimiento de computadores como TEC-SERVICES, obtienes varios beneficios.
           </p>
         </div>
       </div>
@@ -30,15 +23,9 @@ const MantenimientoPc = () => {
         <div className="col-12 col-sm-1"></div>
         <div className="col-12 col-sm-10">
           <h2 className="fs-1 text-center">
-            Necesitas los servicios de una empresa de mantenimiento de
-            computadores
-          </h2>
+            Necesitas los servicios de una empresa de mantenimiento de computadores</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            reprehenderit adipisci vel aut voluptatem, quod accusantium!
-            Laboriosam voluptate ipsum facere. Veniam tenetur maxime sequi
-            perspiciatis asperiores aspernatur repellat voluptatibus nemo? Ipsam
-            sed animi ab tenetur.
+            Te ofrecemos como empresa de mantenimiento de computadores soporte de TI de reparación y mantenimiento de computadores PC y portátiles y para TODAS las principales marcas de PC, computadoras portátiles, equipos de almacenamiento de datos, servidores, impresoras, entre otros.
           </p>
           <div className="row">
             <div className="col-12 col-md-4 text-center">
@@ -49,10 +36,7 @@ const MantenimientoPc = () => {
               />
               <h3>Seguridad</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus enim, perferendis fugit earum totam repellendus quos
-                corrupti atque facere, sed neque dolorem perspiciatis quae ea
-                aspernatur adipisci beatae ad! Iure.
+                Finalmente, puedes vivir tranquilamente sabiendo que no tendrás problemas de virus o programas no deseados.
               </p>
             </div>
 
@@ -64,10 +48,7 @@ const MantenimientoPc = () => {
               />
               <h3>Velocidad</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum
-                pariatur commodi libero blanditiis incidunt assumenda aliquid,
-                quisquam quibusdam, dolor soluta atque accusantium facilis
-                doloribus dolorum quasi quam architecto saepe asperiores?
+                También, puedes mejorar el rendimiento y velocidad de tu computador de escritorio o portátil. Realiza tus tareas de forma rápida.
               </p>
             </div>
             <div className="col-12 col-md-4 text-center">
@@ -78,10 +59,7 @@ const MantenimientoPc = () => {
               />
               <h3>Ahorro</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
-                ex accusamus provident maiores, soluta obcaecati est. Expedita
-                assumenda quasi dignissimos voluptatem non harum natus qui.
-                Aspernatur quidem illum exercitationem et.
+                Primero, el mantenimiento preventivo de computadoras te ayudará a no perder tiempo y dinero en reparaciones costosas.
               </p>
             </div>
           </div>
@@ -94,11 +72,7 @@ const MantenimientoPc = () => {
           Beneficios del mantenimiento preventivo de computadoras
         </h2>
         <p className="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nobis
-          quasi alias nisi hic deleniti aliquid consequatur voluptas atque
-          aspernatur laudantium impedit ipsum, minima nam beatae obcaecati iste
-          quia deserunt? Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit.
+          Ciertamente, cuando programas de forma periódica el mantenimiento preventivo de computadoras con una empresa de mantenimiento de computadores como TEC-SERVICES, obtienes varios beneficios.
         </p>
 
         <div className="row">
@@ -114,16 +88,14 @@ const MantenimientoPc = () => {
                   Gestionar el sistema de TI de tu negocio
                 </h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                  facere, ratione delectus illum nemo dolore magnam, culpa
-                  impedit ut dolorem reprehenderit accusamus ipsa? Odio,
-                  assumenda sint quo veniam quod numquam.
+                  En primer lugar, con un plan de mantenimiento preventivo de computadoras periódico:
                 </p>
               </div>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">An item</li>
-                <li className="list-group-item">A second item</li>
-                <li className="list-group-item">A third item</li>
+                <li className="list-group-item">Se optimiza la vida útil de las estaciones de trabajo y del equipo en general.</li>
+                <li className="list-group-item">Se detectan y corrigen redundancias de software y errores del sistema.</li>
+                <li className="list-group-item">La seguridad informática de la empresa está en su nivel máximo.</li>
+                <li className="list-group-item">El sistema de TI es potente y está disponible.</li>
               </ul>
             </div>
           </div>
@@ -139,16 +111,13 @@ const MantenimientoPc = () => {
                   Incrementar la productividad
                 </h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
-                  accusamus a at culpa, omnis, voluptates consequuntur debitis
-                  quidem dicta corrupti. Rerum, voluptas.
+                  Por otra parte, gracias al servicio de soporte técnico:
                 </p>
               </div>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">An item</li>
-                <li className="list-group-item">A second item</li>
-                <li className="list-group-item">A third item</li>
+                <li className="list-group-item">La empresa tiene menos riesgo de inmovilizaciones de estaciones de trabajo e improductividad laboral a causa de incidentes.</li>
+                <li className="list-group-item">A diferencia de las averías y las incidencias, las operaciones de mantenimiento se planifican.</li>
+                <li className="list-group-item">En caso de incidencia, se activa un plan de recuperación de desastres para limitar la interrupción del servicio.</li>
               </ul>
             </div>
           </div>
@@ -164,17 +133,13 @@ const MantenimientoPc = () => {
                   Garantizar la seguridad
                 </h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione iure officia illum obcaecati labore consectetur in
-                  soluta suscipit consequuntur vitae, voluptates aliquid
-                  exercitationem. Libero nam, laboriosam reprehenderit
-                  doloremque nostrum mollitia.
+                  Un plan periódico de mantenimiento preventivo te ayuda a mejorar el nivel de seguridad de tu negocio:
                 </p>
               </div>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">An item</li>
-                <li className="list-group-item">A second item</li>
-                <li className="list-group-item">A third item</li>
+                <li className="list-group-item">Las herramientas informáticas funcionan mejor y más rápido.</li>
+                <li className="list-group-item">Las brechas de seguridad se detectan durante las intervenciones y se toman acciones correctivas antes de que ocurra un incidente,</li>
+                <li className="list-group-item">La capacitación destinada a educar al personal para que adopte prácticas seguras y el uso adecuado de las herramientas de TI, incluido el acceso a Internet.</li>
               </ul>
             </div>
           </div>
@@ -190,16 +155,14 @@ const MantenimientoPc = () => {
                   Reducción de los costos
                 </h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
-                  optio quidem amet non vero facere eum dolor, sapiente, qui
-                  delectus voluptatem voluptas fugiat, temporibus cupiditate
-                  dolores minus excepturi aliquam ipsa!
+                  Por último, es posible que tengas la impresión de que un plan de mantenimiento preventivo de computadoras te costará más que un plan de mantenimiento de reparación.
                 </p>
               </div>
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">An item</li>
-                <li className="list-group-item">A second item</li>
-                <li className="list-group-item">A third item</li>
+                <li className="list-group-item">Gastos relacionados con las intervenciones de los técnicos en caso de reparaciones.</li>
+                <li className="list-group-item">Compras frecuentes de equipos.</li>
+                <li className="list-group-item">Pérdidas de productividad de tus empleados debido a demoras y fallas del sistema.</li>
+                <li className="list-group-item">Pérdida de ganancias relacionada con las interrupciones del negocio.</li>
               </ul>
             </div>
           </div>

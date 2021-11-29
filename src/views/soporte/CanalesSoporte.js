@@ -212,18 +212,7 @@ const CanalesSoporte = () => {
         </div>
       </div>
 
-      <div className="row p-5 justify-content-center align-items-center">
-        <h2 className="text-center">
-          Tecnología para el desarrollo de una aplicación
-        </h2>
-        <div className="col-12">
-          <img
-            className="img-fluid rounded mx-auto d-block"
-            src="https://abamobile.com/web/wp-content/uploads/2020/11/tecnologia-desarrollo-aplicaciones-moviles.png"
-            alt=""
-          />
-        </div>
-      </div>
+
       {/* <LlamadoAccion /> */}
       <Footer />
     </>
