@@ -8,6 +8,9 @@ import Mantenimiento from "./views/soporte/Mantenimiento";
 import LiceSoftware from "./views/soporte/LiceSoftware";
 import CableadoEstructurado from "./views/soporte/CableadoEstructurado";
 import MovilesyWebs from "./views/soporte/MovilesyWebs";
+import Login from "./views/access/Login";
+import Register from "./views/access/Register";
+import CanalesSoporte from "./views/soporte/CanalesSoporte";
 
 export default function App() {
   return (
@@ -36,6 +39,9 @@ export default function App() {
           path="aplicaciones-moviles-webs"
           element={<MovilesyWebs />}
         ></Route>
+        <Route path="login" element={<Login />}></Route>
+        <Route path="register" element={<Register />}></Route>
+        <Route path="canales-soporte" element={<CanalesSoporte />}></Route>
       </Routes>
     </BrowserRouter>
   );

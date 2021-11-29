@@ -117,13 +117,21 @@ export default function Menu() {
                       </ul>
                     </li>
                     <li className="nav-item">
-                      <NavLink className="nav-link text-primary" to="/">
+                      <NavLink
+                        className="nav-link text-primary"
+                        to="/canales-soporte"
+                      >
                         CANALES DE SOPORTE
                       </NavLink>
                     </li>
                     <li className="nav-item">
                       <NavLink className="nav-link text-primary " to="/">
                         CONTACTO
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
+                      <NavLink className="nav-link text-primary " to="/login">
+                        LOGIN
                       </NavLink>
                     </li>
                   </ul>

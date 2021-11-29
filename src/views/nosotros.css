@@ -56,3 +56,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fondo12 {
+  height: auto;
+  background-image: url(https://www.itcloudcolombia.com/wp-content/uploads/2021/05/slider-it-cloud-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondo13 {
+  height: auto;
+  background-image: url(https://soportetecnicoparaempresas.com/wp-content/uploads/2019/07/web-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
