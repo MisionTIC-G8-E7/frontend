@@ -36,7 +36,7 @@ const MantenimientoPc = () => {
               />
               <h3>Seguridad</h3>
               <p>
-                Finalmente, puedes vivir tranquilamente sabiendo que no tendrás problemas de virus o programas no deseados.
+                Primero, puedes vivir tranquilamente sabiendo que no tendrás problemas de virus o programas no deseados.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ const MantenimientoPc = () => {
               />
               <h3>Ahorro</h3>
               <p>
-                Primero, el mantenimiento preventivo de computadoras te ayudará a no perder tiempo y dinero en reparaciones costosas.
+                Finalmente, el mantenimiento preventivo de computadoras te ayudará a no perder tiempo y dinero en reparaciones costosas.
               </p>
             </div>
           </div>

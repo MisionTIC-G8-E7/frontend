@@ -1,5 +1,5 @@
 import Footer from "../../components/Footer";
-import LlamadoAccion from "../../components/LlamadoAccion";
+// import LlamadoAccion from "../../components/LlamadoAccion";
 import Menu from "../../components/Menu";
 
 const Register = () => {

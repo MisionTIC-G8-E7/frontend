@@ -232,18 +232,12 @@ const CanalesSoporte = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
             quia perferendis pariatur ipsa, totam reprehenderit possimus, vitae
-            architecto consectetur delectus similique maiores fugit doloremque
+            architecto consectetur delectus similique masdfasdfasdfadiores fugit doloremque
             iusto nesciunt maxime commodi molestiae quo.
           </p>
         </div>
       </div>
-<<<<<<< HEAD
       <LlamadoAccion />
-=======
-
-
-      {/* <LlamadoAccion /> */}
->>>>>>> branchLogIn
       <Footer />
     </>
   );
