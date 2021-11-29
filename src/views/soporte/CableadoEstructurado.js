@@ -143,7 +143,7 @@ const CableadoEstructurado = () => {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title text-center">Normativa</h5>
+                <h5 className="card-title text-center">Normativa </h5>
                 <hr />
                 <p className="card-text">
                 Cumplimos y garantizamos la normativa vigente en cualquier infraestructura, instalación o proyecto. Nos basamos en una serie de Normas sobre SCE establecidas por organismo oficiales.
