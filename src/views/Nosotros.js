@@ -10,17 +10,7 @@ export default function Nosotros() {
         <div className="col-12">
           <h1>NOSOTROS</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae
-            minima, sint eaque quam accusantium cupiditate quaerat aspernatur,
-            modi corrupti natus, voluptate numquam. Autem reiciendis voluptatum
-            deserunt veniam dolores maxime? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. In minima saepe quasi illo, ipsam
-            labore ad esse earum neque, hic, provident reprehenderit!
-            Praesentium laboriosam voluptates iure corporis repudiandae, nostrum
-            suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Est minima modi esse quidem accusamus molestiae quod, repellendus
-            cum voluptas voluptatem debitis aliquam deserunt ut ipsam
-            perspiciatis corrupti, omnis aspernatur ipsa.
+          TEC-SERVICES ofrece soluciones de infraestructura completa de TI para una variedad de requisitos de datos y cargas de trabajo, lo que le permite acelerar la innovación, adaptarse a los requisitos en evolución y mantener el control de las operaciones de TI. Somos un equipo diverso con perspectivas únicas. Unido en nuestro propósito, nuestra estrategia y nuestra cultura. Impulsado por nuestra ambición y el poder de la tecnología para fomentar el progreso humano. Inquebrantable en el compromiso con la igualdad, la confianza y el apoyo mutuos.
           </p>
         </div>
       </div>
@@ -28,14 +18,7 @@ export default function Nosotros() {
         <div className="col-12 col-ms-12 col-md-6">
           <h2 className="fs-1">MISIÓN</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            quidem dolores excepturi, earum ipsum asperiores id, quis
-            consequuntur necessitatibus suscipit fuga soluta neque tenetur
-            inventore nostrum omnis, provident officiis! Dignissimos? Lorem
-            ipsum dolor sit amet, consectetur adipisicing elit. Molestias
-            exercitationem neque at, error eligendi provident cupiditate ab, est
-            id illo asperiores recusandae perspiciatis laborum molestiae atque?
-            Sapiente natus unde ab.
+          Ayudar a empresas y personas a mantener funcionales todos los equipos hardware con sus respectivos software, para que éstas saquen todo su potencial mediante herramientas informáticas de software, así como proporcionar innovación en el sector
           </p>
         </div>
         <div className="col-12 col-ms-12 col-md-6">
@@ -57,27 +40,8 @@ export default function Nosotros() {
         <div className="col-12 col-ms-12 col-md-6">
           <h2 className="fs-1">VISIÓN</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-            velit illum veritatis corporis itaque inventore ipsam accusantium
-            pariatur fugit cupiditate delectus asperiores, ex necessitatibus
-            facere culpa cum, quae nesciunt fugiat? Sapiente, totam nobis
-            eveniet suscipit quia quis facere culpa aspernatur. Voluptatibus a
-            velit hic eaque sapiente modi debitis mollitia at odio rerum
-            pariatur autem repellendus magni perspiciatis, ipsa natus
-            voluptatum? Numquam ipsum in dicta reprehenderit cum nesciunt fugiat
-            provident iusto omnis blanditiis eius soluta at ipsa esse illum,
-            quos eligendi tempora sed quo voluptatum, optio ducimus a voluptates
-            voluptatem? Aliquam? Facilis nihil repudiandae rem dolorum? Dolorum,
-            quidem dicta? Labore incidunt, distinctio, pariatur laborum harum
-            eaque perferendis inventore non sit iusto nemo reprehenderit maxime
-            modi eligendi consectetur delectus sed optio magni? Eaque quidem
-            natus eius corporis animi minima, voluptates ab nisi veritatis
-            similique commodi cum laudantium magnam qui asperiores nulla
-            provident quas? Temporibus possimus accusamus eum quam consectetur
-            quibusdam optio cupiditate. Velit molestias a assumenda facere! Cum,
-            recusandae voluptatem magnam modi cupiditate quibusdam nesciunt,
-            provident vel commodi velit a laboriosam quidem natus amet quam!
-            Expedita quos quidem aspernatur corrupti officiis saepe.
+          Nos guía la visión del mundo donde queremos vivir.
+El propósito es Liderar. Es por eso que avanzar hacia la sustentabilidad, cultivar la inclusión, transformar vidas y mantener la ética y la privacidad se integran en todo lo que hacemos. Impulsados por una fuerza laboral que valora y celebra los diferentes orígenes, creamos soluciones que aprovechan y amplían de las formas más significativas el uso de la tecnología. Creemos en el poder de la tecnología para ayudar a resolver los desafíos sociales complejos, desde los servicios de salud hasta la educación y una economía digital.
           </p>
         </div>
       </div>
