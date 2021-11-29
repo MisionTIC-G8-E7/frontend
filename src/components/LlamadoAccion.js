@@ -5,13 +5,10 @@ const LlamadoAccion = () => {
     <div className="row justify-content-center align-items-center bg-success p-5 h-auto">
       <div className="col-12 col-sm-6 text-white">
         <h3 className="fs-1">Programa tu servicio de soporte </h3>
+        <p> Estamos aquí para ayudarte! </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-          architecto cupiditate id, facilis nobis dignissimos modi fugiat quod
-          quasi neque quos provident? Quia, reprehenderit repudiandae. Alias
-          nihil quasi obcaecati atque.
+          Selecciona un servicio y encontraremos la solución más conveniente para ti. Ponte en contacto mediante el siguiente formulario o llama al número de contacto:
         </p>
-
         <p className="fs-1">☎ 3141234245</p>
       </div>
 
@@ -25,7 +22,7 @@ const LlamadoAccion = () => {
           </div>
           <div className="col-md-6">
             <label htmlFor="inputPassword4" className="form-label">
-              Correo
+              Correo electrónico
             </label>
             <input type="email" className="form-control" id="inputPassword4" />
           </div>

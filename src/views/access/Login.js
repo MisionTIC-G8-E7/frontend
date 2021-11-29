@@ -13,17 +13,7 @@ const Login = () => {
         >
           <h1 className="text-center">SOPORTE TÉCNICO</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-            nam tempora modi, placeat ducimus rem, exercitationem pariatur vel
-            temporibus illo magni asperiores consectetur distinctio itaque,
-            optio eum deleniti omnis ullam! Facilis quidem non sed, id, rem
-            beatae praesentium unde, commodi pariatur ullam sapiente iure! Odio
-            omnis, reiciendis nostrum aliquid dignissimos rem distinctio facere
-            fuga qui, doloribus porro. Asperiores, dicta culpa. Consectetur
-            rerum cum temporibus tenetur, labore unde atque enim minus, ab
-            repudiandae ullam vitae! Nisi provident esse facilis placeat
-            dignissimos eligendi cupiditate numquam, quas ipsa aliquam ipsum
-            illo unde necessitatibus?
+          Ya sea que requiera una reparación del producto o sólo algunos consejos y ayuda. Tenemos un centro de soporte autorizado en la ciudad que pueden ayudarlo. Todo nuestro personal está plenamente capacitados y utilizan piezas originales en todas las reparaciones. Encuentra el tipo de producto a continuación para ver cómo puedes obtener el soporte en persona que necesitas.
           </p>
         </div>
         <div className="col-12 col-md-1"></div>
@@ -69,17 +59,16 @@ const Login = () => {
             Logueate con tu cuenta y recibe soporte personalizado{" "}
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-            architecto cupiditate id, facilis nobis dignissimos modi fugiat quod
-            quasi neque quos provident? Quia, reprehenderit repudiandae. Alias
-            nihil quasi obcaecati atque.
+          Después de iniciar sesión, solo tienes que abrir la bandeja de entrada para consultar nuestros servicios. 
+Una vez hayas elegido el servicio a solicitar debes crear un ticket para poderte brindar ayuda profesional de soporte técnico.
+¿Has olvidado tu correo electrónico? escribe al correo electrónico contacto@sopoteit.com para poder brindarte la ayuda necesaria.
           </p>
         </div>
         <div className="col-12 col-sm-6 bg-secondary p-5 text-white">
           <form className="row g-3">
             <div className="col-md-12">
               <label htmlFor="inputEmail4" className="form-label">
-                Email
+                Correo electrónico
               </label>
               <input
                 type="email"
