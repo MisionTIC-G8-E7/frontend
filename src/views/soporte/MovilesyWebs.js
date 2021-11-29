@@ -23,17 +23,7 @@ const MovilesyWebs = () => {
             DESARROLLO DE APPS PARA WEBS Y MOVILES
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-            nam tempora modi, placeat ducimus rem, exercitationem pariatur vel
-            temporibus illo magni asperiores consectetur distinctio itaque,
-            optio eum deleniti omnis ullam! Facilis quidem non sed, id, rem
-            beatae praesentium unde, commodi pariatur ullam sapiente iure! Odio
-            omnis, reiciendis nostrum aliquid dignissimos rem distinctio facere
-            fuga qui, doloribus porro. Asperiores, dicta culpa. Consectetur
-            rerum cum temporibus tenetur, labore unde atque enim minus, ab
-            repudiandae ullam vitae! Nisi provident esse facilis placeat
-            dignissimos eligendi cupiditate numquam, quas ipsa aliquam ipsum
-            illo unde necessitatibus?
+            Diseñamos y desarrollamos aplicaciones y páginas web a la medida que la necesites, con lo último en tecnología, para que se dé a conocer, aumente los clientes de su negocio y así crezcan sus ingresos.
           </p>
         </div>
       </div>
@@ -42,17 +32,7 @@ const MovilesyWebs = () => {
         <div className="col-12 col-sm-10">
           <h2 className="fs-1 text-center">Desarrollo de apps para empresas</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            reprehenderit adipisci vel aut voluptatem, quod accusantium!
-            Laboriosam voluptate ipsum facere. Veniam tenetur maxime sequi
-            perspiciatis asperiores aspernatur repellat voluptatibus nemo? Ipsam
-            sed animi ab tenetur. Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Deleniti aperiam tenetur, aspernatur ipsum quos
-            qui blanditiis in repudiandae doloribus unde ducimus, pariatur quas
-            minima ut error placeat totam, debitis saepe. Lorem ipsum dolor sit
-            amet consectetur, adipisicing elit. Voluptatibus fugiat ipsam ipsum
-            a neque nisi officia autem repellat veritatis! Optio, possimus
-            quisquam natus sit laboriosam velit eaque maxime sint dolorem.
+            Desde TEC-SERVICES le ofrecemos una amplia gama de Soluciones Web. Ponemos a su disposición servicios de Alojamiento Web, Hosting, Posicionamiento en buscadores, SEO y SEM, diseño y creación de Páginas Web, E-commerce, CMS, Marketing Digital, servicios de Community Manager y gestión de Redes Sociales.
           </p>
 
           <div className="row ">
@@ -94,20 +74,9 @@ const MovilesyWebs = () => {
         </div>
         <div className="col-md-12 col-lg-6">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            amet mollitia doloribus totam dicta consectetur, error vel quia
-            repudiandae ad magni libero in repellendus officia. Accusamus
-            praesentium quidem assumenda in. Praesentium magnam sunt tenetur
-            quam consequatur. Similique ad fuga quam quidem, tempora ea. Labore,
-            repudiandae sunt quisquam ullam, consequatur nesciunt dolore
-            accusantium eius magni ipsam eligendi aperiam animi exercitationem
-            soluta. Reiciendis cupiditate obcaecati repellendus, nisi aut
-            possimus. Rem, facere illum amet ullam fugiat corporis obcaecati
-            ipsam alias eius eum, quae veritatis totam perferendis. Nobis quia
-            velit sed exercitationem quos soluta! Necessitatibus eligendi eos
-            vitae laborum beatae, quidem optio sapiente rem quas repudiandae
-            ullam quae iste possimus. Iure facere vitae, labore, aliquid
-            pariatur ducimus ut, repellendus quia velit id quasi dignissimos.
+            Nuestra experiencia y conocimientos nos permiten anticiparnos a los retos tecnológicos que nos piden nuestros clientes y dar el mejor servicio, acorde con sus necesidades, en cuanto al desarrollo de aplicaciones móviles. Para esto contamos con un amplio Departamento de Desarrollo que cuenta con analistas, programadores, desarrolladores, diseñadores, tenicos de sistemas y técnicos de bases de datos.
+
+            Somos expertos en el desarrollo de aplicaciones móviles sobre entornos web 2.0, 3.0, intranet & extranet y dispositivos móviles, contando para ello con programadores especializados en:
           </p>
         </div>
       </div>
@@ -117,13 +86,7 @@ const MovilesyWebs = () => {
           Proceso de creación de una aplicación Web/Movil
         </h2>
         <p className="mb-5">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
-          expedita et, repudiandae deserunt quo veniam harum exercitationem
-          quibusdam cupiditate nam id quidem eaque voluptatum quae aliquid
-          consequatur saepe, ratione nesciunt. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Iste beatae dicta voluptatibus odit vero
-          magni reprehenderit saepe harum quam eligendi, fugit maxime molestiae
-          ut eveniet natus, exercitationem earum consequuntur deserunt.
+          Nuestra experiencia y conocimientos nos permiten anticiparnos a los retos tecnológicos que nos piden nuestros clientes y dar el mejor servicio, acorde con sus necesidades, en cuanto al desarrollo de aplicaciones móviles. Para esto contamos con un amplio Departamento de Desarrollo que cuenta con analistas, programadores, desarrolladores, diseñadores, tenicos de sistemas y técnicos de bases de datos. Somos expertos en el desarrollo de aplicaciones móviles sobre entornos web 2.0, 3.0, intranet E extranet y dispositivos móviles, contando para ello con programadores especializados.
         </p>
         <div className="row">
           <div className="col-12 col-md-6 col-lg-3">
@@ -134,10 +97,7 @@ const MovilesyWebs = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-              explicabo, corrupti suscipit ex voluptates dolorem molestias
-              deleniti possimus, aspernatur accusantium quidem amet modi.
-              Voluptatum cupiditate deleniti in. Dolorem, maxime id.
+              Este paso implica ir a través de cada pantalla individual y comprender cómo todas las partes de la aplicación interactúan entre sí. Si presiono este botón, ¿qué sucede? Te sorprenderás de la cantidad de pasos y escenarios que hay, incluso para la aplicación más sencilla. La cantidad de funciones para definir y construir también jugará un papel importante en el coste de la aplicación.
             </p>
           </div>
           <div className="col-12 col-md-6 col-lg-3">
@@ -148,10 +108,7 @@ const MovilesyWebs = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam in
-              dignissimos expedita eum dolorum fuga recusandae mollitia corrupti
-              ut! Nisi praesentium cum impedit corrupti possimus culpa eius vel
-              accusamus laborum!
+              El diseño viene una vez que la programación y la funcionalidad se han definido, el diseñador obtiene una lista completa de lo que debe ser creado. El diseño puede hacer o deshacer una aplicación, así de simple, por lo que es prioritario en su desarrollo la selección de un buen diseñador freelance. Necesitarás un gran icono que distinga tu app, pantallas de inicio, iconos de las diferentes pestañas… y todo debe de estar relacionado.
             </p>
           </div>
           <div className="col-12 col-md-6 col-lg-3">
@@ -162,10 +119,9 @@ const MovilesyWebs = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus inventore impedit id laudantium molestiae sit
-              dignissimos molestias doloribus atque debitis magni consectetur
-              possimus odio voluptatem hic, recusandae quibusdam quidem cumque.
+              Una vez que tengas la aplicación construida en xCode (el entorno de desarrollo de aplicaciones para Apple), el desarrollador freelance podrá ayudarte a sacar la aplicación en la tienda correspondiente (iTunes por ejemplo). Esto requiere la creación de una cuenta de iTunes Connect (unos 70 euros al año) y luego rellenar toda la información necesaria para la aplicación – iconos , descripciones , precios, etc.
+
+
             </p>
           </div>
           <div className="col-12 col-md-6 col-lg-3">
@@ -176,10 +132,7 @@ const MovilesyWebs = () => {
               alt=""
             />
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
-              debitis distinctio minima assumenda temporibus ipsum deserunt
-              veniam velit accusamus voluptatibus enim commodi ab quis dolorem
-              autem exercitationem sed, at alias.
+              Una vez que tienes la aplicación en la tienda, puedes supervisar todo el funcionamiento a través de iTunes Connect – cuántas descargas , cuánto dinero estás ganando, etc. Hay muchas formas aumentar los ingresos de tus aplicaciones, incluyendo los anuncios dentro de la aplicación y la posibilidad de comprar información adicional a través de la App. Podrás ver y analizar todo lo que está ocurriendo.
             </p>
           </div>
         </div>
@@ -192,28 +145,33 @@ const MovilesyWebs = () => {
         <div className="col-md-12 col-lg-4">
           <h3 className="text-center">APP NATIVA</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-            iusto dicta exercitationem quibusdam facere eveniet corrupti itaque
-            porro ratione maiores natus repudiandae ullam accusamus debitis,
-            quis quos deserunt beatae autem.
+            Son las que se desarrollan de forma específica para un sistema operativo determinado al que se conoce como software development kit o SDK. Cada plataforma tiene un sistema operativo diferente. Los más conocidos son iOS y Android. También existen otros como Windows Phone.
+
+            Si quieres que tu aplicación llegue a todos los usuarios, debes pensar en crear una app para cada uno de los sistemas operativos. Hay que tener claro que cada sistema utiliza un lenguaje determinado. Para que la aplicación sea exitosa, tu desarrollo tiene que ser nativo.
           </p>
         </div>
         <div className="col-md-12 col-lg-4">
           <h3 className="text-center">APP HÍBRIDA</h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
-            saepe, doloremque hic laborum facilis magnam possimus voluptatibus
-            corrupti facere aspernatur obcaecati iusto, harum ullam, sit amet.
-            Voluptates illum incidunt deleniti!
+            Es una fusión entre los dos tipos de aplicaciones que hemos explicado anteriormente. Se encarga de combinar lo mejor de las aplicaciones nativas y las aplicaciones web.
+
+            Aplicaciones híbridas se desarrollan en los lenguajes más comunes de las aplicaciones web como HTML y CSS, por lo que se podrán utilizar en las diferentes plataformas. A la vez, dan la posibilidad de acceder a la mayoría de características hardware de cada dispositivo.
+
+            A pesar de estar desarrolladas en el lenguaje de la aplicación web, tienen la misma capacidad de adaptación de una aplicación nativa para cualquier smartphone, tablet o dispositivo. Su desarrollo es rápido y facilita el acceso a las diferentes plataformas con un esfuerzo mucho menor.
+
+            Las aplicaciones híbridas se pueden instalar desde la app store. Sobre su coste, indicar que es más económica que la app Nativas. Mientras que su utilización reporta una mejor experiencia que una aplicación web.
           </p>
         </div>
         <div className="col-md-12 col-lg-4">
           <h3 className="text-center">APP WEB</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-            quia perferendis pariatur ipsa, totam reprehenderit possimus, vitae
-            architecto consectetur delectus similique maiores fugit doloremque
-            iusto nesciunt maxime commodi molestiae quo.
+            El desarrollo de la aplicación está pensado para poder ejecutarla en cualquier dispositivo o navegador. Por tanto, la aplicación estará programada con independencia del sistema operativo. A diferencia de la aplicación nativa, con una sola aplicación web llegaremos a los diferentes dispositivos.
+
+            La aplicación web utiliza lenguajes muy conocidos entre los programadores como: HTML y CSS. Se ejecutan dentro del propio navegador web del dispositivo a través de una URL. Una vez que deseas utilizarla, la propia aplicación se adaptará al dispositivo que estés usando.
+
+            No necesitan instalación, por lo que no siempre las encontraremos en los stores. Simplemente con crear un acceso directo, serviría para usar dicha aplicación web. Dos claros ejemplos son los accesos directos a Safari en iOS o Google Chrome en Android.
+
+            Tiene una importante ventaja respecto a la aplicación nativa, su precio es más económico. Eso no significa garantía de éxito. Cuenta también con inconvenientes como la restricción en el acceso a ciertas características del dispositivo o la obligación de tener conexión a internet para su utilización.
           </p>
         </div>
         <button type="button" className="btn btn-primary fs-1">

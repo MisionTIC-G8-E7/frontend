@@ -13,17 +13,9 @@ const CableadoEstructurado = () => {
         >
           <h1 className="text-center">Redes y Mantenimiento</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-            nam tempora modi, placeat ducimus rem, exercitationem pariatur vel
-            temporibus illo magni asperiores consectetur distinctio itaque,
-            optio eum deleniti omnis ullam! Facilis quidem non sed, id, rem
-            beatae praesentium unde, commodi pariatur ullam sapiente iure! Odio
-            omnis, reiciendis nostrum aliquid dignissimos rem distinctio facere
-            fuga qui, doloribus porro. Asperiores, dicta culpa. Consectetur
-            rerum cum temporibus tenetur, labore unde atque enim minus, ab
-            repudiandae ullam vitae! Nisi provident esse facilis placeat
-            dignissimos eligendi cupiditate numquam, quas ipsa aliquam ipsum
-            illo unde necessitatibus?
+            Somos una empresa especializada en Cableado Estructurado. Ofrecemos servicios, soluciones y productos para las redes de voz y datos de su oficina, edificio o empresa con el fin de dotarle y ofrecerle conectividad en todos sus equipos activos, de diferentes o igual tecnología.
+
+            Con nuestros servicios de cableado podrá obtener la integración de los diferentes servicios de los que disponga, como pueden ser telefonía, voz, datos, vídeo, seguridad, domótica etc. Es decir, todo lo referente a los sistemas de cableado estructurado (SCE), redes de datos, cableado red, redes de datos y cableado Voz y Datos.
           </p>
         </div>
         <div className="col-12 col-md-1"></div>
@@ -40,17 +32,7 @@ const CableadoEstructurado = () => {
         <div className="col-12 col-sm-10">
           <h2 className="fs-1 text-center">Redes y Cableado Estructurado</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-            reprehenderit adipisci vel aut voluptatem, quod accusantium!
-            Laboriosam voluptate ipsum facere. Veniam tenetur maxime sequi
-            perspiciatis asperiores aspernatur repellat voluptatibus nemo? Ipsam
-            sed animi ab tenetur. Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Deleniti aperiam tenetur, aspernatur ipsum quos
-            qui blanditiis in repudiandae doloribus unde ducimus, pariatur quas
-            minima ut error placeat totam, debitis saepe. Lorem ipsum dolor sit
-            amet consectetur, adipisicing elit. Voluptatibus fugiat ipsam ipsum
-            a neque nisi officia autem repellat veritatis! Optio, possimus
-            quisquam natus sit laboriosam velit eaque maxime sint dolorem.
+
           </p>
           <img
             className="img-fluid mx-auto d-block mb-3"
@@ -132,10 +114,7 @@ const CableadoEstructurado = () => {
                 </h5>
                 <hr />
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                  facere, ratione delectus illum nemo dolore magnam, culpa
-                  impedit ut dolorem reprehenderit accusamus ipsa? Odio,
-                  assumenda sint quo veniam quod numquam.
+                Instalación de Cableado Estructurado, auditorías, mantenimiento y certificación. Soluciones de conectividad para redes de comunicaciones. Conectividad en todo tipo de infraestructuras.
                 </p>
               </div>
             </div>
@@ -151,10 +130,7 @@ const CableadoEstructurado = () => {
                 <h5 className="card-title text-center">Componentes</h5>
                 <hr />
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
-                  accusamus a at culpa, omnis, voluptates consequuntur debitis
-                  quidem dicta corrupti. Rerum, voluptas.
+                Nuestros Sistemas de Cableado Estructurado son un conjunto de elementos, incluyendo paneles de terminación, módulos, conectores, cable y latiguillos instalados, entre otros elementos necesarios.
                 </p>
               </div>
             </div>
@@ -167,13 +143,10 @@ const CableadoEstructurado = () => {
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title text-center">Normativa</h5>
+                <h5 className="card-title text-center">Normativa </h5>
                 <hr />
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
-                  accusamus a at culpa, omnis, voluptates consequuntur debitis
-                  quidem dicta corrupti. Rerum, voluptas.
+                Cumplimos y garantizamos la normativa vigente en cualquier infraestructura, instalación o proyecto. Nos basamos en una serie de Normas sobre SCE establecidas por organismo oficiales.
                 </p>
               </div>
             </div>
@@ -190,10 +163,7 @@ const CableadoEstructurado = () => {
                 <h5 className="card-title text-center">Cable Categoría 7</h5>
                 <hr />
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                  facere, ratione delectus illum nemo dolore magnam, culpa
-                  impedit ut dolorem reprehenderit accusamus ipsa? Odio,
-                  assumenda sint quo veniam quod numquam.
+                Con la implantación de este tipo de cableado estructurado, el Cable de Categoría 7 o Cable Cat 7, podemos alcanzar los 10-gigabit Ethernet (XGbE o 10GbE), que actualmente es el más rápido de los estándares Ethernet.
                 </p>
               </div>
             </div>
@@ -210,16 +180,7 @@ const CableadoEstructurado = () => {
                 <h5 className="card-title text-center">Fibra Óptica</h5>
                 <hr />
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
-                  accusamus a at culpa, omnis, voluptates consequuntur debitis
-                  quidem dicta corrupti. Rerum, voluptas. Lorem, ipsum dolor sit
-                  amet consectetur adipisicing elit. Quasi nemo corporis, porro
-                  officia ipsam earum. Ipsa dolores sint error molestias quae!
-                  Non, fuga. Autem incidunt labore recusandae, harum fugiat ea.
-                  Autem incidunt labore recusandae, harum fugiat ea. Autem
-                  incidunt labore recusandae, harum fugiat ea. Autem incidunt
-                  labore recusand
+                Nuestras soluciones de cableado de fibra óptica están basadas en el Gigabit Ethernet. Los departamentos TIC de su compañía actúan con previsión y reconocen la necesidad de estar preparados. Relación calidad/precio de nuestras instalaciones.
                 </p>
               </div>
             </div>
@@ -236,10 +197,7 @@ const CableadoEstructurado = () => {
                 <h5 className="card-title text-center">Mantenimiento</h5>
                 <hr />
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
-                  accusamus a at culpa, omnis, voluptates consequuntur debitis
-                  quidem dicta corrupti. Rerum, voluptas.
+                Ofrecemos un servicio de Mantenimiento de Cableado Estructurado Preventivo, Correctivo y Resolución de incidencias. Resolvemos las incidencias en las redes de comunicaciones de voz y datos de forma más rápida y eficiente.
                 </p>
               </div>
             </div>
@@ -256,10 +214,7 @@ const CableadoEstructurado = () => {
                 <h5 className="card-title text-center">Certificación</h5>
                 <hr />
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-                  facere, ratione delectus illum nemo dolore magnam, culpa
-                  impedit ut dolorem reprehenderit accusamus ipsa? Odio,
-                  assumenda sint quo veniam quod numquam.
+                El proceso de certificación que realizamos en Unitel-TC, tras la consecución de una instalación, se basa en la comparación de rendimiento de transmisión, entre otros procedimientos.
                 </p>
               </div>
             </div>
@@ -275,10 +230,7 @@ const CableadoEstructurado = () => {
                 <h5 className="card-title text-center">Redes Inalámbricas</h5>
                 <hr />
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
-                  accusamus a at culpa, omnis, voluptates consequuntur debitis
-                  quidem dicta corrupti. Rerum, voluptas.
+                Aseguramos una de las tecnologías más prometedoras y discutidas en estos tiempos: Poder conectar y comunicar dispositivos informáticos a través de redes inalámbricas.
                 </p>
               </div>
             </div>
@@ -296,10 +248,7 @@ const CableadoEstructurado = () => {
                 </h5>
                 <hr />
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Fugiat sit adipisci eius quae atque vel possimus perspiciatis
-                  accusamus a at culpa, omnis, voluptates consequuntur debitis
-                  quidem dicta corrupti. Rerum, voluptas.
+                Con este tipo de cableado par de cobre le ofrecemos una mejoría sobre la diafonía exógena. Esta diafonía es la interferencia sobre un cable víctima procedente de otros cables o conectores.
                 </p>
               </div>
             </div>
