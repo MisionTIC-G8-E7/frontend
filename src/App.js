@@ -11,6 +11,7 @@ import MovilesyWebs from "./views/soporte/MovilesyWebs";
 import Login from "./views/access/Login";
 import Register from "./views/access/Register";
 import CanalesSoporte from "./views/soporte/CanalesSoporte";
+import Tickets from "./views/access/Tickets";
 
 export default function App() {
   return (
@@ -42,6 +43,7 @@ export default function App() {
         <Route path="login" element={<Login />}></Route>
         <Route path="register" element={<Register />}></Route>
         <Route path="canales-soporte" element={<CanalesSoporte />}></Route>
+        <Route path="tickets" element={<Tickets />}></Route>
       </Routes>
     </BrowserRouter>
   );

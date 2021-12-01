@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import LlamadoAccion from "../../components/LlamadoAccion";
 import Menu from "../../components/Menu";
+import NuestrosCanales from "../../components/NuestrosCanales";
 
 const CanalesSoporte = () => {
   return (
@@ -149,7 +150,7 @@ const CanalesSoporte = () => {
         </div>
       </div>
 
-      <div className="row p-5 fondoCard2 justify-content-center align-items-center">
+      {/* <div className="row p-5 fondoCard2 justify-content-center align-items-center">
         <h2 className="fs-1 mb-5 text-center">Nuestros canales</h2>
         <div className="col-md-12 col-lg-4">
           <h3 className="text-center">TICKETS</h3>
@@ -236,7 +237,8 @@ const CanalesSoporte = () => {
             iusto nesciunt maxime commodi molestiae quo.
           </p>
         </div>
-      </div>
+      </div> */}
+      <NuestrosCanales />
       <LlamadoAccion />
       <Footer />
     </>

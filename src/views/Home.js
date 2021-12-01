@@ -4,6 +4,7 @@ import "../views/home.css";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import LlamadoAccion from "../components/LlamadoAccion";
+import NuestrosCanales from "../components/NuestrosCanales";
 
 export default function Home(props) {
   return (
@@ -12,7 +13,7 @@ export default function Home(props) {
       {/* SECTION 2 */}
       <div className="row fondo"></div>
       {/* SECTION 3 */}
-      <div className="row mt-5">
+      <div className="row mt-5 fondoCard2">
         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
           <Card
             titulo="Soporte Hardware"
@@ -62,12 +63,12 @@ export default function Home(props) {
         </div>
       </div>
       {/* SECTION 4 */}
-      <div className="row fondoCard2">
+      <div className="row">
         <div className="col-12">
           <h2 className="text-center mt-5 fs-1">SERVICIOS IT</h2>
         </div>
       </div>
-      <div className="row fondoCard2">
+      <div className="row">
         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
           <Card2
             titulo="Mantenimiento de 
@@ -107,6 +108,7 @@ Software"
           </Card2>
         </div>
       </div>
+      <NuestrosCanales />
       <LlamadoAccion />
       {/* FOOTER */}
       <Footer />
