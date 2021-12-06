@@ -12,3 +12,15 @@ export const removeError = () => {
         type: types.uiSetError,
     }
 }
+
+export const startLoading = () => {
+    return {
+        types: types.uiStartLoading
+    }
+}
+
+export const finishLoading = () => {
+    return {
+        types: types.uiFinishLoading
+    }
+}

@@ -6,11 +6,14 @@ import validator from 'validator';
 
 import Footer from "./Footer";
 import Menu from "./Menu";
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { startRegisterWithEmailPassword } from '../actions/auth';
 
 export const RegisterScreen = () => {
 
     const dispatch = useDispatch()
+
+    const { msgError } = useSelector(state => state.ui)
 
     const [formValues, handleInputChange] = useForm({
         name: 'TEC-SERVICES',
@@ -23,7 +26,7 @@ export const RegisterScreen = () => {
 
     const isFormValid = () => {
 
-        let listaErrores = {}
+        // let listaErrores = {}
 
 
         if (name.trim().length < 2) {
@@ -55,7 +58,8 @@ export const RegisterScreen = () => {
     const handleRegister = (e) => {
         e.preventDefault()
         if (isFormValid()) {
-            console.log(name, email, password, password2)
+            // console.log(name, email, password, password2)
+            dispatch(startRegisterWithEmailPassword(email, password, name))
         }
     }
 
@@ -69,9 +73,11 @@ export const RegisterScreen = () => {
                 <div className="container bg-secondary  text-white p-4">
                     <form onSubmit={handleRegister}>
                         {
-                            <div className="alert alert-danger" role="alert">
-                                mensaje de alerta
-                            </div>
+                            msgError && (
+                                <div className="alert alert-danger" role="alert">
+                                    { msgError } 
+                                </div>
+                            )
                         }
                         <div className="form-group">
                             <label htmlFor="exampleInputEmail1">Nombre</label>
@@ -108,6 +114,7 @@ export const RegisterScreen = () => {
                                 id="exampleInputPassword1"
                                 placeholder="Password"
                                 name="password"
+                                autoComplete="off"
                                 value={password}
                                 onChange={handleInputChange}
                                 required
@@ -121,6 +128,7 @@ export const RegisterScreen = () => {
                                 id="exampleInputPassword2"
                                 placeholder="Password"
                                 name="password2"
+                                autoComplete="off"
                                 value={password2}
                                 onChange={handleInputChange}
                                 required
