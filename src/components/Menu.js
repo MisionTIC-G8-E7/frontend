@@ -130,6 +130,11 @@ export default function Menu() {
                       </NavLink>
                     </li>
                     <li className="nav-item">
+                      <NavLink className="nav-link text-primary" to="/tickets">
+                        TICKET
+                      </NavLink>
+                    </li>
+                    <li className="nav-item">
                       <NavLink className="nav-link text-primary " to="/login">
                         LOGIN
                       </NavLink>
