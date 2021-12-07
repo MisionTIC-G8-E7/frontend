@@ -29,6 +29,14 @@ const ListadoTickets = () => {
   };
 
   const getTicket = () => {
+    /**************************************** INICIO **********************************/
+      // HOLA MANUEL: solo definí la variable "params" para hacer una pruea
+    
+    let params = {
+      id: "123456"
+    }
+
+    /************************ FIN **************************************************/
     const apiURL = `http://localhost:5500/api/tickets/${params.id}`;
   };
 
