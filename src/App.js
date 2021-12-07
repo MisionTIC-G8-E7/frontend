@@ -16,8 +16,9 @@ import LoginScreen from "./components/LoginScreen";
 import Register from "./views/access/Register";
 import CanalesSoporte from "./views/soporte/CanalesSoporte";
 import Tickets from "./views/access/Tickets";
-import { RegisterScreen } from "./components/RegisterScreen";
+// import { RegisterScreen } from "./components/RegisterScreen";
 import ListadoTickets from "./components/ListadoTickets";
+import TicketsInfo from "./views/access/TicketsInfo";
 
 export default function App() {
   return (
@@ -48,12 +49,12 @@ export default function App() {
             element={<MovilesyWebs />}
           ></Route>
           <Route path="login" element={<LoginScreen />}></Route>
-          <Route path="register" element={<RegisterScreen />}></Route>
+          {/* <Route path="register" element={<RegisterScreen />}></Route> */}
           <Route path="register" element={<Register />}></Route>
           <Route path="canales-soporte" element={<CanalesSoporte />}></Route>
           <Route path="lista-tickets" element={<ListadoTickets />}></Route>
           <Route path="tickets" element={<Tickets />}></Route>
-          <Route path="/tickets/:id" element={<Tickets />} />
+          <Route path="/tickets/:id" element={<TicketsInfo />} />
         </Routes>
       </BrowserRouter>
     </Provider>

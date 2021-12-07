@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-import Footer from "../../components/Footer";
-
-// import LlamadoAccion from "../../components/LlamadoAccion";
-=======
-/** @format */
->>>>>>> 7475bc33f2ce41ad292e7afb7dbec0eeb1a3c92f
-
 import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 

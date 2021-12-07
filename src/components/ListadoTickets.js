@@ -5,6 +5,7 @@ import LlamadoAccion from "./LlamadoAccion";
 import Menu from "./Menu";
 import { useState, useEffect } from "react";
 import axios from "axios";
+
 const ListadoTickets = () => {
   const [tickets, setTickets] = useState([]);
 
@@ -46,24 +47,20 @@ const ListadoTickets = () => {
                   <div className="col-12 col-md-4"></div>
                   <div className="col-12 col-md-4"></div>
                   <div className="col-12 col-md-4">
-                    <NavLink className="btn btn-primary m-2" to="/tickets/:id">
+                    <NavLink
+                      className="btn btn-primary m-2"
+                      to={"/tickets/" + item._id}
+                    >
                       Ver
                     </NavLink>
 
-                    <NavLink
-                      className="btn btn-secondary m-2"
-                      to="/tickets/:id"
-                    >
+                    {/* <NavLink className="btn btn-secondary m-2" to={item._id}>
                       Editar
-                    </NavLink>
+                    </NavLink> */}
 
                     <NavLink className="btn btn-danger m-2" to="/tickets/:id">
                       Eliminar
                     </NavLink>
-                    {/* 
-                    <button className="btn btn-primary m-2">Ver</button>
-                    <button className="btn btn-secondary m-2">Editar</button>
-                    <button className="btn btn-danger m-2">Eliminar</button> */}
                   </div>
                 </div>
               </li>

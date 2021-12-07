@@ -33,12 +33,33 @@ const Tickets = () => {
     telefono: "",
     asunto: "",
     mensaje: "",
+    imagen: "",
   });
 
   const handleInput = (event) => {
     setTikets({
       ...tikets,
       [event.target.name]: event.target.value,
+    });
+  };
+
+  //CARGANDO IMAGEN
+  const [selectedFile, setSelectedFile] = useState(null);
+
+  const onFileSelected = (event) => {
+    setSelectedFile(event.target.files[0]);
+  };
+
+  const subirImagen = () => {
+    const fd = new FormData();
+    fd.append("image", selectedFile);
+    let imgApi =
+      "https://api.imgbb.com/1/upload?key=a05daebb93267b09d0073a8ae16975b8";
+    axios.post(imgApi, fd).then((res) => {
+      setTikets({
+        ...tikets,
+        imagen: res.data.data.display_url,
+      });
     });
   };
 
@@ -143,8 +164,19 @@ const Tickets = () => {
               <label htmlFor="inputEmail4" className="form-label">
                 Sube una imagen (Opcional)
               </label>
-              <input type="file" className="form-control" id="inputEmail4" />
+              <input
+                type="file"
+                className="form-control"
+                id="inputEmail4"
+                onChange={onFileSelected}
+              />
+              <p onClick={subirImagen} className="btn btn-success mt-3">
+                Cargar imagen al servidor
+              </p>
+
+              <p>{tikets.imagen !== "" && "Image cargada correctamente"}</p>
             </div>
+
             <div className="col-12">
               <div className="form-check">
                 <input
