@@ -13,6 +13,7 @@ const ListadoTickets = () => {
     listaTikets();
   }, []);
 
+  // // DESACTIVADO POR JAVIER... compa lo pongo en comentarios para hacer funcionar otra cosa
   const listaTikets = async (e) => {
     let apiURL = "http://localhost:5500/api/tickets"; //abrimos el puerto para hacer una peticion
     axios
@@ -57,6 +58,27 @@ const ListadoTickets = () => {
                     {/* <NavLink className="btn btn-secondary m-2" to={item._id}>
                       Editar
                     </NavLink> */}
+
+                    {/* <ul>
+                      {tickets.map((item) => (
+                        <li key={item._id}>
+                          <div className="list-group m-5">
+                            <a
+                              href="/"
+                              className="list-group-item list-group-item-action"
+                              aria-current="true"
+                            >
+                              <div className="d-flex w-100 justify-content-between">
+                                <h5 className="mb-1">{item.nombre}</h5>
+                                <small>{item.email}</small>
+                              </div>
+                              <p className="mb-1">{item.asunto}</p>
+                              <small>{item.mensaje}</small>
+                            </a>
+                          </div>
+                        </li>
+                      ))}
+                    </ul> */}
 
                     <NavLink className="btn btn-danger m-2" to="/tickets/:id">
                       Eliminar
