@@ -1,8 +1,57 @@
+/** @format */
+import { useState } from "react";
 import Footer from "../../components/Footer";
 // import LlamadoAccion from "../../components/LlamadoAccion";
 import Menu from "../../components/Menu";
+import axios from "axios";
 
 const Tickets = () => {
+  const agregarTiket = async (e) => {
+    let apiURL = "http://localhost:5500/api/tickets"; //abrimos el puerto para hacer una peticion
+    e.preventDefault();
+    try {
+      const response = await axios({
+        url: `${apiURL}`,
+        method: "POST",
+        data: tikets,
+      });
+      return response;
+    } catch (e) {
+      console.log(e);
+    }
+
+    // axios
+    //   .post(apiURL, tikets)
+    //   .then(() => {
+    //     // this.$router.push("/");
+    //     setTikets({
+    //       nombre: "",
+    //       email: "",
+    //       telefono: "",
+    //       asunto: "",
+    //       mensaje: "",
+    //     });
+    //     console.log(tikets);
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
+  };
+  const [tikets, setTikets] = useState({
+    nombre: "",
+    email: "",
+    telefono: "",
+    asunto: "",
+    mensaje: "",
+  });
+
+  const handleInput = (event) => {
+    setTikets({
+      ...tikets,
+      [event.target.name]: event.target.value,
+    });
+  };
+
   return (
     <>
       <Menu />
@@ -30,12 +79,19 @@ const Tickets = () => {
             riguroso orden de entrada, priorizando los clientes que tienen un
             contrato de mantenimiento con nosotros.
           </p>
-          <form className="row g-3">
+          <form className="row g-3" onSubmit={agregarTiket}>
             <div className="col-md-12">
               <label htmlFor="inputEmail4" className="form-label">
                 Nombre
               </label>
-              <input type="text" className="form-control" id="inputEmail4" />
+              <input
+                type="text"
+                className="form-control"
+                id="inputEmail4"
+                name="nombre"
+                onChange={handleInput}
+                required
+              />
             </div>
             <div className="col-md-6">
               <label htmlFor="inputPassword4" className="form-label">
@@ -45,20 +101,37 @@ const Tickets = () => {
                 type="email"
                 className="form-control"
                 id="inputPassword4"
+                name="email"
+                onChange={handleInput}
+                required
               />
             </div>
             <div className="col-6">
               <label htmlFor="inputAddress" className="form-label">
                 Telefono
               </label>
-              <input type="number" className="form-control" id="inputAddress" />
+              <input
+                type="number"
+                className="form-control"
+                id="inputAddress"
+                name="telefono"
+                onChange={handleInput}
+                required
+              />
             </div>
 
             <div className="col-md-12">
               <label htmlFor="inputEmail4" className="form-label">
                 Asunto
               </label>
-              <input type="text" className="form-control" id="inputEmail4" />
+              <input
+                type="text"
+                className="form-control"
+                id="inputEmail4"
+                name="asunto"
+                onChange={handleInput}
+                required
+              />
             </div>
 
             <div className="col-md-12">
@@ -67,10 +140,12 @@ const Tickets = () => {
               </label>
               <textarea
                 className="form-control"
-                name=""
                 id="inputEmail4"
                 cols="30"
                 rows="10"
+                name="mensaje"
+                onChange={handleInput}
+                required
               ></textarea>
             </div>
 
