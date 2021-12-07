@@ -1,15 +1,19 @@
-import React from 'react'
-import { useForm } from '../hooks/useForm';
-import { removeError, setError } from '../actions/ui';
+/** @format */
+
+import React from "react";
+import { useForm } from "../hooks/useForm";
+import { removeError, setError } from "../actions/ui";
 import { Link } from "react-router-dom";
-import validator from 'validator';
+import validator from "validator";
 
 import Footer from "./Footer";
 import Menu from "./Menu";
+
 import { useDispatch, useSelector } from 'react-redux';
 import { startRegisterWithEmailPassword } from '../actions/auth';
 
 export const RegisterScreen = () => {
+  const dispatch = useDispatch();
 
     const dispatch = useDispatch()
 
@@ -24,36 +28,40 @@ export const RegisterScreen = () => {
 
     const { name, email, password, password2 } = formValues;
 
-    const isFormValid = () => {
+  const { name, email, password, password2 } = formValues;
 
         // let listaErrores = {}
 
-
-        if (name.trim().length < 2) {
-            // console.log('el nombre debe ser de 2 o más caracteres')
-            dispatch(setError('el nombre debe ser de 2 o más caracteres'))
-            return false
-            // listaErrores = { ...listaErrores, nombre: 'el nombre debe ser de 2 o más caracteres'}
-        }
-        if (password.length < 6 || password !== password2) {
-            // console.log('La contraseña debe ser de mínimo 6 caracteres, y la deben coincidir')
-            dispatch(setError('La contraseña debe ser de mínimo 6 caracteres, y la deben coincidir'))
-            return false
-            // listaErrores = { ...listaErrores, clave: 'La contraseña debe ser de mínimo 6 caracteres, y la deben coincidir'}
-        }
-        if (!validator.isEmail(email)) {
-            // console.log('El correo no es válido.')
-            dispatch(setError('El correo no es válido.'))
-            return false
-            // listaErrores = { ...listaErrores, correo: 'El correo no es válido.'}
-        }
-        // if (Object.keys(listaErrores).length != 0 ) {
-        //     console.log(listaErrores[nombre])
-        //     return false
-        // }
-        dispatch(removeError())
-        return true
+    if (name.trim().length < 2) {
+      // console.log('el nombre debe ser de 2 o más caracteres')
+      dispatch(setError("el nombre debe ser de 2 o más caracteres"));
+      return false;
+      // listaErrores = { ...listaErrores, nombre: 'el nombre debe ser de 2 o más caracteres'}
     }
+    if (password.length < 6 || password !== password2) {
+      // console.log('La contraseña debe ser de mínimo 6 caracteres, y la deben coincidir')
+      dispatch(
+        setError(
+          "La contraseña debe ser de mínimo 6 caracteres, y la deben coincidir"
+        )
+      );
+      return false;
+      // listaErrores = { ...listaErrores, clave: 'La contraseña debe ser de mínimo 6 caracteres, y la deben coincidir'}
+    }
+    if (!validator.isEmail(email)) {
+      // console.log('El correo no es válido.')
+      dispatch(setError("El correo no es válido."));
+      return false;
+      // listaErrores = { ...listaErrores, correo: 'El correo no es válido.'}
+    }
+    // if (Object.keys(listaErrores).length != 0 ) {
+    //     console.log(listaErrores[nombre])
+    //     return false
+    // }
+    dispatch(removeError());
+    return true;
+  };
+
 
     const handleRegister = (e) => {
         e.preventDefault()
@@ -61,7 +69,13 @@ export const RegisterScreen = () => {
             // console.log(name, email, password, password2)
             dispatch(startRegisterWithEmailPassword(email, password, name))
         }
-    }
+//   const handleRegister = (e) => {
+//     e.preventDefault();
+//     if (isFormValid()) {
+//       console.log(name, email, password, password2);
+// >>>>>>> 7475bc33f2ce41ad292e7afb7dbec0eeb1a3c92f
+//     }
+//   };
 
     return (
         <>
@@ -147,20 +161,22 @@ export const RegisterScreen = () => {
                             />
                             <label className="form-check-label" htmlFor="exampleCheck1">Acepto los términos y condiciones.</label>
                         </div> */}
-                        <br />
-                        <button type="submit" className="btn btn-primary">Crear cuenta</button>
-                    </form>
-                </div>
-                <br />
-                <hr />
-                <div className="container">
-                    <Link to='/login'>Si ya tienes una cuenta, da clic aquí</Link>
-                </div>
-                <hr />
-            </div>
-            <Footer />
-        </>
-    )
-}
+            <br />
+            <button type="submit" className="btn btn-primary">
+              Crear cuenta
+            </button>
+          </form>
+        </div>
+        <br />
+        <hr />
+        <div className="container">
+          <Link to="/login">Si ya tienes una cuenta, da clic aquí</Link>
+        </div>
+        <hr />
+      </div>
+      <Footer />
+    </>
+  );
+};
 
 export default RegisterScreen;

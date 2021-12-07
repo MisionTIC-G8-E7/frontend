@@ -1,3 +1,5 @@
+/** @format */
+
 import Card from "../components/Card";
 import Card2 from "../components/Card2";
 import "../views/home.css";
@@ -5,8 +7,9 @@ import Menu from "../components/Menu";
 import Footer from "../components/Footer";
 import LlamadoAccion from "../components/LlamadoAccion";
 import NuestrosCanales from "../components/NuestrosCanales";
+// import axios from "axios";
 
-export default function Home(props) {
+export default function Home() {
   return (
     <>
       <Menu />
