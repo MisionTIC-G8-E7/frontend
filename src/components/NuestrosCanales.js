@@ -12,10 +12,7 @@ const NuestrosCanales = () => {
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-          iusto dicta exercitationem quibusdam facere eveniet corrupti itaque
-          porro ratione maiores natus repudiandae ullam accusamus debitis, quis
-          quos deserunt beatae autem.
+        Gestionamos nuestro soporte en tickets, para dar un servicio completo cada vez más rápido y eficiente.
         </p>
         <NavLink to="/tickets">
           <button className="btn btn-success"> Abrir Ticket</button>
@@ -29,10 +26,7 @@ const NuestrosCanales = () => {
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
-          saepe, doloremque hic laborum facilis magnam possimus voluptatibus
-          corrupti facere aspernatur obcaecati iusto, harum ullam, sit amet.
-          Voluptates illum incidunt deleniti!
+          Nuestro canal de correo se caracteriza por su rapidez y eficiencia.
         </p>
       </div>
       <div className="col-md-12 col-lg-4">
@@ -43,10 +37,7 @@ const NuestrosCanales = () => {
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quia
-          perferendis pariatur ipsa, totam reprehenderit possimus, vitae
-          architecto consectetur delectus similique maiores fugit doloremque
-          iusto nesciunt maxime commodi molestiae quo.
+        Reciba soporte a manera inmediata y fácil a través de mensajes instantáneos.
         </p>
       </div>
 
@@ -58,10 +49,7 @@ const NuestrosCanales = () => {
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-          iusto dicta exercitationem quibusdam facere eveniet corrupti itaque
-          porro ratione maiores natus repudiandae ullam accusamus debitis, quis
-          quos deserunt beatae autem.
+        Solucionamos cualquier problema a través de nuestras líneas telefónicas fijas y móviles.
         </p>
       </div>
       <div className="col-md-12 col-lg-4">
@@ -72,10 +60,7 @@ const NuestrosCanales = () => {
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
-          saepe, doloremque hic laborum facilis magnam possimus voluptatibus
-          corrupti facere aspernatur obcaecati iusto, harum ullam, sit amet.
-          Voluptates illum incidunt deleniti!
+        La videollamada, una opción eficaz y directa para ofrecer soporte y capacitación tecnológica.
         </p>
       </div>
       <div className="col-md-12 col-lg-4">
@@ -86,10 +71,7 @@ const NuestrosCanales = () => {
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quia
-          perferendis pariatur ipsa, totam reprehenderit possimus, vitae
-          architecto consectetur delectus similique masdfasdfasdfadiores fugit
-          doloremque iusto nesciunt maxime commodi molestiae quo.
+        Manejamos software como AnyDesk y TeamViewer, entre otros.
         </p>
       </div>
     </div>
