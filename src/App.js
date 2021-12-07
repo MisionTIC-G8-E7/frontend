@@ -1,6 +1,13 @@
+/** @format */
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+<<<<<<< HEAD
 import { Provider, useDispatch } from "react-redux";
 import { store } from "./store/store"
+=======
+import { Provider } from "react-redux";
+import { store } from "./store/store";
+>>>>>>> b211195c6ce4d75c03accd573cc39927aa72199d
 
 import Home from "./views/Home";
 import MantenimientoPc from "./views/soporte/MantenimientoPc";
@@ -15,25 +22,9 @@ import Register from "./views/access/Register";
 import CanalesSoporte from "./views/soporte/CanalesSoporte";
 import Tickets from "./views/access/Tickets";
 import { RegisterScreen } from "./components/RegisterScreen";
-// import { useEffect } from "react";
-// import { firebase } from "./firebase/firebase-config"
-// import { login } from "./actions/auth";
-
 import ListadoTickets from "./components/ListadoTickets";
 
 export default function App() {
-
-  // // const dispatch = useDispatch()
-  // const dispatch = useDispatch()
-
-  // useEffect(() => {
-  //     firebase.auth().onAuthStateChanged( (user) => {
-  //       if( user ) {
-  //         dispatch( login(user.uid, user.displayName) )
-  //       }
-  //     })
-  // }, [dispatch])
-
   return (
     <Provider store={store}>
       <BrowserRouter>
@@ -67,6 +58,7 @@ export default function App() {
           <Route path="canales-soporte" element={<CanalesSoporte />}></Route>
           <Route path="lista-tickets" element={<ListadoTickets />}></Route>
           <Route path="tickets" element={<Tickets />}></Route>
+          <Route path="/tickets/:id" element={<Tickets />} />
         </Routes>
       </BrowserRouter>
     </Provider>
