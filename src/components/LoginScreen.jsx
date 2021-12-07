@@ -1,18 +1,19 @@
 import React from "react";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import GoogleButton from 'react-google-button'
 import { Link } from "react-router-dom";
-// import { useContext } from "react"
-// import { useNavigate } from "react-router-dom"
-
 import { useForm } from "../hooks/useForm"
 import { startGoogleLogin, startLoginWithEmailPassword } from "../actions/auth";
-
 import Footer from "./Footer";
 import Menu from "./Menu";
 
 
 const LoginScreen = () => {
+
+  const dispatch = useDispatch();
+
+  // const { loading } = useSelector(state => state.ui);
+  const { loading } = useSelector(state => state.ui)
 
   const [formValues, handleInputChange] = useForm({
     email: 'contacto@sopornteit.com',
@@ -21,12 +22,10 @@ const LoginScreen = () => {
 
   const { email, password } = formValues;
 
-  const dispatch = useDispatch();
+
 
   const handleLogin = (e) => {
     e.preventDefault()
-    // console.log(email, password)
-    // dispatch(login('asdfasd7a7sdf7999ada', 'Javier'))
     dispatch(startLoginWithEmailPassword(email, password))
   }
 
@@ -87,7 +86,13 @@ const LoginScreen = () => {
               />
             </div>
             <br />
-            <button type="submit" className="btn btn-primary">Iniciar sersión</button>
+            <button 
+              type="submit" 
+              className="btn btn-primary"
+              disabled={ loading }
+              >
+                Iniciar sersión
+            </button>
           </form>
         </div>
         <hr />

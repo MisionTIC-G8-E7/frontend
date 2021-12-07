@@ -8,22 +8,29 @@ import validator from "validator";
 
 import Footer from "./Footer";
 import Menu from "./Menu";
-import { useDispatch } from "react-redux";
+
+import { useDispatch, useSelector } from 'react-redux';
+import { startRegisterWithEmailPassword } from '../actions/auth';
 
 export const RegisterScreen = () => {
   const dispatch = useDispatch();
 
-  const [formValues, handleInputChange] = useForm({
-    name: "TEC-SERVICES",
-    email: "contacto@sopornteit.com",
-    password: "123456",
-    password2: "123456",
-  });
+    const dispatch = useDispatch()
+
+    const { msgError } = useSelector(state => state.ui)
+
+    const [formValues, handleInputChange] = useForm({
+        name: 'TEC-SERVICES',
+        email: 'contacto@sopornteit.com',
+        password: '123456',
+        password2: '123456'
+    });
+
+    const { name, email, password, password2 } = formValues;
 
   const { name, email, password, password2 } = formValues;
 
-  const isFormValid = () => {
-    // let listaErrores = {}
+        // let listaErrores = {}
 
     if (name.trim().length < 2) {
       // console.log('el nombre debe ser de 2 o más caracteres')
@@ -55,84 +62,93 @@ export const RegisterScreen = () => {
     return true;
   };
 
-  const handleRegister = (e) => {
-    e.preventDefault();
-    if (isFormValid()) {
-      console.log(name, email, password, password2);
-    }
-  };
 
-  return (
-    <>
-      <div>
-        <Menu />
-        <br />
-        <br />
-        <h1 className="text-center">Registrar cuenta</h1>
-        <br />
-        <div className="container bg-secondary  text-white p-4">
-          <form onSubmit={handleRegister}>
-            {
-              <div className="alert alert-danger" role="alert">
-                mensaje de alerta
-              </div>
-            }
-            <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Nombre</label>
-              <input
-                type="text"
-                className="form-control"
-                id="exampleInputName"
-                autoComplete="off"
-                name="name"
-                value={name}
-                onChange={handleInputChange}
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Correo electrónico</label>
-              <input
-                type="email"
-                className="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                autoComplete="off"
-                name="email"
-                value={email}
-                onChange={handleInputChange}
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="exampleInputPassword1">Contraseña</label>
-              <input
-                type="password"
-                className="form-control"
-                id="exampleInputPassword1"
-                placeholder="Password"
-                name="password"
-                value={password}
-                onChange={handleInputChange}
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="exampleInputPassword2">
-                Confirmar Contraseña
-              </label>
-              <input
-                type="password"
-                className="form-control"
-                id="exampleInputPassword2"
-                placeholder="Password"
-                name="password2"
-                value={password2}
-                onChange={handleInputChange}
-                required
-              />
-            </div>
-            {/* <div className="mb-3 form-check pt-2">
+    const handleRegister = (e) => {
+        e.preventDefault()
+        if (isFormValid()) {
+            // console.log(name, email, password, password2)
+            dispatch(startRegisterWithEmailPassword(email, password, name))
+        }
+//   const handleRegister = (e) => {
+//     e.preventDefault();
+//     if (isFormValid()) {
+//       console.log(name, email, password, password2);
+// >>>>>>> 7475bc33f2ce41ad292e7afb7dbec0eeb1a3c92f
+//     }
+//   };
+
+    return (
+        <>
+            <div>
+                <Menu />
+                <br /><br />
+                <h1 className="text-center">Registrar cuenta</h1>
+                <br />
+                <div className="container bg-secondary  text-white p-4">
+                    <form onSubmit={handleRegister}>
+                        {
+                            msgError && (
+                                <div className="alert alert-danger" role="alert">
+                                    { msgError } 
+                                </div>
+                            )
+                        }
+                        <div className="form-group">
+                            <label htmlFor="exampleInputEmail1">Nombre</label>
+                            <input
+                                type="text"
+                                className="form-control"
+                                id="exampleInputName"
+                                autoComplete="off"
+                                name="name"
+                                value={name}
+                                onChange={handleInputChange}
+                                required
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="exampleInputEmail1">Correo electrónico</label>
+                            <input
+                                type="email"
+                                className="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="emailHelp"
+                                autoComplete="off"
+                                name="email"
+                                value={email}
+                                onChange={handleInputChange}
+                                required
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="exampleInputPassword1">Contraseña</label>
+                            <input
+                                type="password"
+                                className="form-control"
+                                id="exampleInputPassword1"
+                                placeholder="Password"
+                                name="password"
+                                autoComplete="off"
+                                value={password}
+                                onChange={handleInputChange}
+                                required
+                            />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="exampleInputPassword2">Confirmar Contraseña</label>
+                            <input
+                                type="password"
+                                className="form-control"
+                                id="exampleInputPassword2"
+                                placeholder="Password"
+                                name="password2"
+                                autoComplete="off"
+                                value={password2}
+                                onChange={handleInputChange}
+                                required
+                            />
+                        </div>
+                        {/* <div className="mb-3 form-check pt-2">
                             <input
                                 type="checkbox"
                                 className="form-check-input"
