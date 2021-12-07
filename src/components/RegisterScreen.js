@@ -13,7 +13,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { startRegisterWithEmailPassword } from '../actions/auth';
 
 export const RegisterScreen = () => {
-  const dispatch = useDispatch();
 
     const dispatch = useDispatch()
 
@@ -27,8 +26,6 @@ export const RegisterScreen = () => {
     });
 
     const { name, email, password, password2 } = formValues;
-
-  const { name, email, password, password2 } = formValues;
 
         // let listaErrores = {}
 
@@ -60,10 +57,10 @@ export const RegisterScreen = () => {
     // }
     dispatch(removeError());
     return true;
-  };
+}
 
 
-    const handleRegister = (e) => {
+  const handleRegister = (e) => {
         e.preventDefault()
         if (isFormValid()) {
             // console.log(name, email, password, password2)
@@ -74,8 +71,7 @@ export const RegisterScreen = () => {
 //     if (isFormValid()) {
 //       console.log(name, email, password, password2);
 // >>>>>>> 7475bc33f2ce41ad292e7afb7dbec0eeb1a3c92f
-//     }
-//   };
+    };
 
     return (
         <>

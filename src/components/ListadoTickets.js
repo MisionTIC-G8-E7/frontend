@@ -2,33 +2,35 @@ import Footer from "./Footer";
 import LlamadoAccion from "./LlamadoAccion";
 import Menu from "./Menu";
 import { useState, useEffect } from "react";
-import axios from "axios";
+import { axios } from "axios";
+
 const ListadoTickets = () => {
-  const [tickets, setTickets] = useState([]);
+  
+  // const [tickets, setTickets] = useState([]);
 
-  useEffect(() => {
-    listaTikets();
-  }, []);
+  // useEffect(() => {
+  //   listaTikets();
+  // }, []);
 
-  const listaTikets = async (e) => {
-    let apiURL = "http://localhost:5500/api/tickets"; //abrimos el puerto para hacer una peticion
-    axios
-      .get(apiURL)
-      .then((res) => {
-        // this.$router.push("/");
-        setTickets(res.data);
-        console.log(res.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
+  // // DESACTIVADO POR JAVIER... compa lo pongo en comentarios para hacer funcionar otra cosa
+  // const listaTikets = async (e) => {
+  //   let apiURL = "http://localhost:5500/api/tickets"; //abrimos el puerto para hacer una peticion
+  //   axios.get(apiURL)
+  //     .then((res) => {
+  //       // this.$router.push("/");
+  //       setTickets(res.data);
+  //       console.log(res.data);
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //     });
+  // };
 
   return (
     <>
       <Menu />
 
-      <ul>
+      {/* <ul>
         {tickets.map((item) => (
           <li key={item._id}>
             <div className="list-group m-5">
@@ -47,7 +49,7 @@ const ListadoTickets = () => {
             </div>
           </li>
         ))}
-      </ul>
+      </ul> */}
 
       <LlamadoAccion />
       <Footer />

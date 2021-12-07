@@ -1,11 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-<<<<<<< HEAD
 import { Provider, useDispatch } from "react-redux";
 import { store } from "./store/store"
-=======
-import { Provider } from "react-redux";
-import { store } from "./store/store";
->>>>>>> 7475bc33f2ce41ad292e7afb7dbec0eeb1a3c92f
 
 import Home from "./views/Home";
 import MantenimientoPc from "./views/soporte/MantenimientoPc";
