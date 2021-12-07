@@ -1,5 +1,3 @@
-// import LlamadoAccion from "../../components/LlamadoAccion";
-
 import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 
