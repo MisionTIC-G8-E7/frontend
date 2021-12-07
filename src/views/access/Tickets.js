@@ -9,33 +9,23 @@ const Tickets = () => {
   const agregarTiket = async (e) => {
     let apiURL = "http://localhost:5500/api/tickets"; //abrimos el puerto para hacer una peticion
     e.preventDefault();
-    try {
-      const response = await axios({
-        url: `${apiURL}`,
-        method: "POST",
-        data: tikets,
+    axios
+      .post(apiURL, tikets)
+      .then(() => {
+        this.$router.push("/");
+        setTikets({
+          nombre: "",
+          email: "",
+          telefono: "",
+          asunto: "",
+          mensaje: "",
+        });
+      })
+      .catch((error) => {
+        console.log(error);
       });
-      return response;
-    } catch (e) {
-      console.log(e);
-    }
-
-    // axios
-    //   .post(apiURL, tikets)
-    //   .then(() => {
-    //     // this.$router.push("/");
-    //     setTikets({
-    //       nombre: "",
-    //       email: "",
-    //       telefono: "",
-    //       asunto: "",
-    //       mensaje: "",
-    //     });
-    //     console.log(tikets);
-    //   })
-    //   .catch((error) => {
-    //     console.log(error);
-    //   });
+    e.target.reset();
+    console.log(tikets);
   };
   const [tikets, setTikets] = useState({
     nombre: "",
