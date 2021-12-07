@@ -1,3 +1,5 @@
+/** @format */
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
@@ -51,6 +53,7 @@ export default function App() {
           <Route path="canales-soporte" element={<CanalesSoporte />}></Route>
           <Route path="lista-tickets" element={<ListadoTickets />}></Route>
           <Route path="tickets" element={<Tickets />}></Route>
+          <Route path="/tickets/:id" element={<Tickets />} />
         </Routes>
       </BrowserRouter>
     </Provider>
